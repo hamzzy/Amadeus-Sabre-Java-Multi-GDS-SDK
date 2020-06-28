@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:otaAirLowFareSearchPlusRQ xmlns:ns2="http://traveltalk.com/wsLowFarePlus">
+    <ns2:POS>
+        <ns2:Source PseudoCityCode="LOSN828TN" ISOCountry="NGN">
+            <ns2:RequestorID Type="21" ID="Travelden"/>
+        </ns2:Source>
+        <ns2:TPA_Extensions>
+            <ns2:Provider>
+                <ns2:Name PseudoCityCode="LOSN828TN">Amadeus</ns2:Name>
+                <ns2:System>Production</ns2:System>
+                <ns2:Userid>Travelden</ns2:Userid>
+                <ns2:Password>tr@v3l</ns2:Password>
+            </ns2:Provider>
+        </ns2:TPA_Extensions>
+    </ns2:POS>
+    <ns2:OriginDestinationInformation>
+        <ns2:DepartureDateTime>2020-03-13T00:00:00</ns2:DepartureDateTime>
+        <ns2:OriginLocation LocationCode="LOS"/>
+        <ns2:DestinationLocation LocationCode="DXB"/>
+        <ns2:ConnectionLocations/>
+    </ns2:OriginDestinationInformation>
+    <ns2:OriginDestinationInformation>
+        <ns2:DepartureDateTime>2020-04-13T00:00:00</ns2:DepartureDateTime>
+        <ns2:OriginLocation LocationCode="DXB"/>
+        <ns2:DestinationLocation LocationCode="LOS"/>
+        <ns2:ConnectionLocations/>
+    </ns2:OriginDestinationInformation>
+    <ns2:SpecificFlightInfo/>
+    <ns2:TravelPreferences MaxStopsQuantity="0">
+        <ns2:CabinPref Cabin="Economy"/>
+    </ns2:TravelPreferences>
+    <ns2:TravelerInfoSummary>
+        <ns2:SeatsRequested>1</ns2:SeatsRequested>
+        <ns2:AirTravelerAvail>
+            <ns2:PassengerTypeQuantity Code="ADT" Quantity="1"/>
+        </ns2:AirTravelerAvail>
+        <ns2:PriceRequestInformation PricingSource="Published"/>
+    </ns2:TravelerInfoSummary>
+</ns2:otaAirLowFareSearchPlusRQ>

@@ -1,0 +1,33 @@
+<soap-env:Envelope>
+  <soap-env:Header>
+    <eb:MessageHeader soap-env:mustUnderstand="1" eb:version="1.0">
+      <eb:From>
+        <eb:PartyId eb:type="urn:x12.org:IO5:01">webservices.sabre.com</eb:PartyId>
+      </eb:From>
+      <eb:To>
+        <eb:PartyId eb:type="urn:x12.org:IO5:01">www.icarrygo.com</eb:PartyId>
+      </eb:To>
+      <eb:CPAId>8Z7I</eb:CPAId>
+      <eb:ConversationId>jamiu@brakket.tech</eb:ConversationId>
+      <eb:Service eb:type="sabreXML">Session</eb:Service>
+      <eb:Action>SessionCreateRS</eb:Action>
+      <eb:MessageData>
+        <eb:MessageId>1057679729087230924</eb:MessageId>
+        <eb:Timestamp>2020-06-21T20:15:08</eb:Timestamp>
+        <eb:RefToMessageId>
+          71d1c5c5-e135-4b95-94d8-a617d21b2bf9@icarrygo.com
+        </eb:RefToMessageId>
+      </eb:MessageData>
+    </eb:MessageHeader>
+    <wsse:Security>
+      <wsse:BinarySecurityToken valueType="String" EncodingType="wsse:Base64Binary">
+        Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESD!ICESMSLB\/RES.LB!1592770508749!5371!21!1
+      </wsse:BinarySecurityToken>
+    </wsse:Security>
+  </soap-env:Header>
+  <soap-env:Body>
+    <SessionCreateRS version="1" status="Approved">
+      <ConversationId>jamiu@brakket.tech</ConversationId>
+    </SessionCreateRS>
+  </soap-env:Body>
+</soap-env:Envelope>

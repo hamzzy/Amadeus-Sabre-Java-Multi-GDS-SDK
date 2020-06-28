@@ -1,0 +1,2193 @@
+{
+    "version" : "1.1.2",
+    "project" : {
+        "name" : "common",
+        "directory" : "/Users/brakket/projects/ota-ws-integrations/modules/common",
+        "sources" : [
+            "/Users/brakket/projects/ota-ws-integrations/modules/common/src/main/scala-2.11",
+            "/Users/brakket/projects/ota-ws-integrations/modules/common/src/main/scala",
+            "/Users/brakket/projects/ota-ws-integrations/modules/common/src/main/java",
+            "/Users/brakket/projects/ota-ws-integrations/modules/common/target/scala-2.11/src_managed/main"
+        ],
+        "dependencies" : [
+        ],
+        "classpath" : [
+            "/Users/brakket/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar",
+            "/Users/brakket/.ivy2/cache/com.typesafe.play/play-slick_2.11/jars/play-slick_2.11-2.1.0.jar",
+            "/Users/brakket/.ivy2/cache/com.typesafe.slick/slick_2.11/bundles/slick_2.11-3.2.0.jar",
+            "/Users/brakket/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.0.jar",
+            "/Users/brakket/.ivy2/cache/com.typesafe.slick/slick-hikaricp_2.11/bundles/slick-hikaricp_2.11-3.2.0.jar",
+            "/Users/brakket/.ivy2/cache/com.zaxxer/HikariCP/bundles/HikariCP-2.5.1.jar",
+            "/Users/brakket/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.5.12.jar",
+            "/Users/brakket/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.5.12.jar",
+            "/Users/brakket/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.5.12.jar",
+            "/Users/brakket/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.5.12.jar",
+            "/Users/brakket/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.5.12.jar",
+            "/Users/brakket/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar",
+            "/Users/brakket/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.5.12.jar",
+            "/Users/brakket/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.5.12.jar",
+            "/Users/brakket/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.5.12.jar",
+            "/Users/brakket/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.9.9.jar",
+            "/Users/brakket/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.8.1.jar",
+            "/Users/brakket/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar",
+            "/Users/brakket/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.8.8.jar",
+            "/Users/brakket/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.8.8.jar",
+            "/Users/brakket/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.7.8.jar",
+            "/Users/brakket/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.7.8.jar",
+            "/Users/brakket/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/bundles/jackson-datatype-jsr310-2.7.8.jar",
+            "/Users/brakket/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.5.12.jar",
+            "/Users/brakket/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.21.jar",
+            "/Users/brakket/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.21.jar",
+            "/Users/brakket/.ivy2/cache/com.typesafe.play/play-streams_2.11/jars/play-streams_2.11-2.5.12.jar",
+            "/Users/brakket/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/jars/akka-stream_2.11-2.5.12.jar",
+            "/Users/brakket/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.5.12.jar",
+            "/Users/brakket/.ivy2/cache/com.typesafe/config/bundles/config-1.3.2.jar",
+            "/Users/brakket/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/bundles/scala-java8-compat_2.11-0.7.0.jar",
+            "/Users/brakket/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.11/jars/akka-protobuf_2.11-2.5.12.jar",
+            "/Users/brakket/.ivy2/cache/com.typesafe/ssl-config-core_2.11/bundles/ssl-config-core_2.11-0.2.3.jar",
+            "/Users/brakket/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.1.0.jar",
+            "/Users/brakket/.ivy2/cache/com.typesafe.play/twirl-api_2.11/jars/twirl-api_2.11-1.1.1.jar",
+            "/Users/brakket/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar",
+            "/Users/brakket/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.6.jar",
+            "/Users/brakket/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.4.14.jar",
+            "/Users/brakket/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar",
+            "/Users/brakket/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar",
+            "/Users/brakket/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar",
+            "/Users/brakket/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar",
+            "/Users/brakket/.ivy2/cache/com.google.inject/guice/jars/guice-4.0.jar",
+            "/Users/brakket/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar",
+            "/Users/brakket/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar",
+            "/Users/brakket/.ivy2/cache/com.google.guava/guava/bundles/guava-19.0.jar",
+            "/Users/brakket/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/jars/guice-assistedinject-4.0.jar",
+            "/Users/brakket/.ivy2/cache/com.typesafe.play/play-slick-evolutions_2.11/jars/play-slick-evolutions_2.11-2.1.0.jar",
+            "/Users/brakket/.ivy2/cache/com.typesafe.play/play-jdbc-evolutions_2.11/jars/play-jdbc-evolutions_2.11-2.5.12.jar",
+            "/Users/brakket/.ivy2/cache/com.github.tototoshi/slick-joda-mapper_2.11/jars/slick-joda-mapper_2.11-2.3.0.jar",
+            "/Users/brakket/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.34.jar",
+            "/Users/brakket/.ivy2/cache/tech.brakket/ota-slick-jdbc_2.11/jars/ota-slick-jdbc_2.11-1.0.0-SNAPSHOT.jar",
+            "/Users/brakket/.ivy2/cache/com.mohiva/play-silhouette_2.11/jars/play-silhouette_2.11-4.0.0.jar",
+            "/Users/brakket/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.5.4.jar",
+            "/Users/brakket/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.5.4.jar",
+            "/Users/brakket/.ivy2/cache/com.typesafe.netty/netty-reactive-streams-http/jars/netty-reactive-streams-http-1.0.6.jar",
+            "/Users/brakket/.ivy2/cache/com.typesafe.netty/netty-reactive-streams/jars/netty-reactive-streams-1.0.6.jar",
+            "/Users/brakket/.ivy2/cache/io.netty/netty-codec-http/jars/netty-codec-http-4.0.36.Final.jar",
+            "/Users/brakket/.ivy2/cache/io.netty/netty-transport-native-epoll/jars/netty-transport-native-epoll-4.0.36.Final-linux-x86_64.jar",
+            "/Users/brakket/.ivy2/cache/com.typesafe.play/play-logback_2.11/jars/play-logback_2.11-2.5.4.jar",
+            "/Users/brakket/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.7.jar",
+            "/Users/brakket/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.7.jar",
+            "/Users/brakket/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.5.4.jar",
+            "/Users/brakket/.ivy2/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-2.6.11.jar",
+            "/Users/brakket/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.5.4.jar",
+            "/Users/brakket/.ivy2/cache/org.asynchttpclient/async-http-client/jars/async-http-client-2.0.2.jar",
+            "/Users/brakket/.ivy2/cache/org.asynchttpclient/netty-resolver-dns/jars/netty-resolver-dns-2.0.2.jar",
+            "/Users/brakket/.ivy2/cache/org.asynchttpclient/netty-resolver/jars/netty-resolver-2.0.2.jar",
+            "/Users/brakket/.ivy2/cache/org.asynchttpclient/netty-codec-dns/jars/netty-codec-dns-2.0.2.jar",
+            "/Users/brakket/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.20.0-GA.jar",
+            "/Users/brakket/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar",
+            "/Users/brakket/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar",
+            "/Users/brakket/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.0.1.jar",
+            "/Users/brakket/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.5.3.jar",
+            "/Users/brakket/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.2.jar",
+            "/Users/brakket/.ivy2/cache/com.atlassian.jwt/jwt-core/jars/jwt-core-1.5.8.jar",
+            "/Users/brakket/.ivy2/cache/com.nimbusds/nimbus-jose-jwt/jars/nimbus-jose-jwt-2.16.jar",
+            "/Users/brakket/.ivy2/cache/net.jcip/jcip-annotations/jars/jcip-annotations-1.0.jar",
+            "/Users/brakket/.ivy2/cache/net.minidev/json-smart/jars/json-smart-1.1.1.jar",
+            "/Users/brakket/.ivy2/cache/javax.mail/mail/jars/mail-1.4.7.jar",
+            "/Users/brakket/.ivy2/cache/javax.activation/activation/jars/activation-1.1.jar",
+            "/Users/brakket/.ivy2/cache/org.bouncycastle/bcprov-jdk15on/jars/bcprov-jdk15on-1.51.jar",
+            "/Users/brakket/.ivy2/cache/org.bouncycastle/bcpkix-jdk15on/jars/bcpkix-jdk15on-1.51.jar",
+            "/Users/brakket/.ivy2/cache/com.atlassian.jwt/jwt-api/jars/jwt-api-1.5.8.jar",
+            "/Users/brakket/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-2.0.1.jar",
+            "/Users/brakket/.ivy2/cache/org.apache.commons/commons-math3/jars/commons-math3-3.6.1.jar",
+            "/Users/brakket/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.6.jar",
+            "/Users/brakket/.ivy2/cache/org.json4s/json4s-native_2.11/jars/json4s-native_2.11-3.5.0.jar",
+            "/Users/brakket/.ivy2/cache/org.json4s/json4s-core_2.11/jars/json4s-core_2.11-3.5.0.jar",
+            "/Users/brakket/.ivy2/cache/org.json4s/json4s-ast_2.11/jars/json4s-ast_2.11-3.5.0.jar",
+            "/Users/brakket/.ivy2/cache/org.json4s/json4s-scalap_2.11/jars/json4s-scalap_2.11-3.5.0.jar",
+            "/Users/brakket/.ivy2/cache/com.thoughtworks.paranamer/paranamer/bundles/paranamer-2.8.jar",
+            "/Users/brakket/.ivy2/cache/org.jsoup/jsoup/jars/jsoup-1.10.2.jar",
+            "/Users/brakket/.ivy2/cache/io.circe/circe-core_2.11/jars/circe-core_2.11-0.9.3.jar",
+            "/Users/brakket/.ivy2/cache/io.circe/circe-numbers_2.11/jars/circe-numbers_2.11-0.9.3.jar",
+            "/Users/brakket/.ivy2/cache/org.typelevel/cats-core_2.11/jars/cats-core_2.11-1.0.1.jar",
+            "/Users/brakket/.ivy2/cache/org.typelevel/cats-macros_2.11/jars/cats-macros_2.11-1.0.1.jar",
+            "/Users/brakket/.ivy2/cache/org.typelevel/machinist_2.11/jars/machinist_2.11-0.6.2.jar",
+            "/Users/brakket/.ivy2/cache/org.typelevel/cats-kernel_2.11/jars/cats-kernel_2.11-1.0.1.jar",
+            "/Users/brakket/.ivy2/cache/io.circe/circe-generic_2.11/jars/circe-generic_2.11-0.9.3.jar",
+            "/Users/brakket/.ivy2/cache/org.typelevel/macro-compat_2.11/jars/macro-compat_2.11-1.1.1.jar",
+            "/Users/brakket/.ivy2/cache/com.chuusai/shapeless_2.11/bundles/shapeless_2.11-2.3.3.jar",
+            "/Users/brakket/.ivy2/cache/io.circe/circe-parser_2.11/jars/circe-parser_2.11-0.9.3.jar",
+            "/Users/brakket/.ivy2/cache/io.circe/circe-jawn_2.11/jars/circe-jawn_2.11-0.9.3.jar",
+            "/Users/brakket/.ivy2/cache/org.spire-math/jawn-parser_2.11/jars/jawn-parser_2.11-0.11.1.jar",
+            "/Users/brakket/.ivy2/cache/com.google.code.gson/gson/jars/gson-2.8.5.jar",
+            "/Users/brakket/.ivy2/cache/com.datastax.cassandra/cassandra-driver-core/jars/cassandra-driver-core-3.5.0.jar",
+            "/Users/brakket/.ivy2/cache/io.netty/netty-handler/jars/netty-handler-4.0.56.Final.jar",
+            "/Users/brakket/.ivy2/cache/io.netty/netty-buffer/jars/netty-buffer-4.0.56.Final.jar",
+            "/Users/brakket/.ivy2/cache/io.netty/netty-common/jars/netty-common-4.0.56.Final.jar",
+            "/Users/brakket/.ivy2/cache/io.netty/netty-transport/jars/netty-transport-4.0.56.Final.jar",
+            "/Users/brakket/.ivy2/cache/io.netty/netty-codec/jars/netty-codec-4.0.56.Final.jar",
+            "/Users/brakket/.ivy2/cache/io.dropwizard.metrics/metrics-core/bundles/metrics-core-3.2.2.jar",
+            "/Users/brakket/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.25.jar",
+            "/Users/brakket/.ivy2/cache/com.github.jnr/jnr-ffi/jars/jnr-ffi-2.1.7.jar",
+            "/Users/brakket/.ivy2/cache/com.github.jnr/jffi/jars/jffi-1.2.16.jar",
+            "/Users/brakket/.ivy2/cache/com.github.jnr/jffi/jars/jffi-1.2.16-native.jar",
+            "/Users/brakket/.ivy2/cache/org.ow2.asm/asm/jars/asm-5.0.3.jar",
+            "/Users/brakket/.ivy2/cache/org.ow2.asm/asm-commons/jars/asm-commons-5.0.3.jar",
+            "/Users/brakket/.ivy2/cache/org.ow2.asm/asm-tree/jars/asm-tree-5.0.3.jar",
+            "/Users/brakket/.ivy2/cache/org.ow2.asm/asm-analysis/jars/asm-analysis-5.0.3.jar",
+            "/Users/brakket/.ivy2/cache/org.ow2.asm/asm-util/jars/asm-util-5.0.3.jar",
+            "/Users/brakket/.ivy2/cache/com.github.jnr/jnr-x86asm/jars/jnr-x86asm-1.0.2.jar",
+            "/Users/brakket/.ivy2/cache/com.github.jnr/jnr-posix/jars/jnr-posix-3.0.44.jar",
+            "/Users/brakket/.ivy2/cache/com.github.jnr/jnr-constants/jars/jnr-constants-0.9.9.jar"
+        ],
+        "out" : "/Users/brakket/projects/ota-ws-integrations/.bloop/common",
+        "classesDir" : "/Users/brakket/projects/ota-ws-integrations/.bloop/common/scala-2.11/classes",
+        "resources" : [
+            "/Users/brakket/projects/ota-ws-integrations/modules/common/src/main/resources",
+            "/Users/brakket/projects/ota-ws-integrations/modules/common/target/scala-2.11/resource_managed/main",
+            "/Users/brakket/projects/ota-ws-integrations/modules/common/../../conf/akka-dispatcher.conf",
+            "/Users/brakket/projects/ota-ws-integrations/modules/common/../../conf/hotel.conf"
+        ],
+        "scala" : {
+            "organization" : "org.scala-lang",
+            "name" : "scala-compiler",
+            "version" : "2.11.8",
+            "options" : [
+                "-feature",
+                "-deprecation",
+                "-unchecked",
+                "-language:reflectiveCalls",
+                "-language:postfixOps",
+                "-language:implicitConversions"
+            ],
+            "jars" : [
+                "/Users/brakket/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar",
+                "/Users/brakket/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.8.jar",
+                "/Users/brakket/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar",
+                "/Users/brakket/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.4.jar",
+                "/Users/brakket/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar",
+                "/Users/brakket/.ivy2/cache/jline/jline/jars/jline-2.12.1.jar"
+            ],
+            "setup" : {
+                "order" : "mixed",
+                "addLibraryToBootClasspath" : true,
+                "addCompilerToClasspath" : false,
+                "addExtraJarsToClasspath" : false,
+                "manageBootClasspath" : true,
+                "filterLibraryFromClasspath" : true
+            }
+        },
+        "java" : {
+            "options" : [
+            ]
+        },
+        "test" : {
+            "frameworks" : [
+                {
+                    "names" : [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options" : {
+                "excludes" : [
+                ],
+                "arguments" : [
+                ]
+            }
+        },
+        "platform" : {
+            "name" : "jvm",
+            "config" : {
+                "home" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre",
+                "options" : [
+                    "-Dconfig.resource=common.conf"
+                ]
+            },
+            "mainClass" : [
+            ]
+        },
+        "resolution" : {
+            "modules" : [
+                {
+                    "organization" : "org.scala-lang",
+                    "name" : "scala-library",
+                    "version" : "2.11.8",
+                    "artifacts" : [
+                        {
+                            "name" : "scala-library",
+                            "path" : "/Users/brakket/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar"
+                        },
+                        {
+                            "name" : "scala-library",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.play",
+                    "name" : "play-slick_2.11",
+                    "version" : "2.1.0",
+                    "artifacts" : [
+                        {
+                            "name" : "play-slick_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.play/play-slick_2.11/jars/play-slick_2.11-2.1.0.jar"
+                        },
+                        {
+                            "name" : "play-slick_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.play/play-slick_2.11/srcs/play-slick_2.11-2.1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.slick",
+                    "name" : "slick_2.11",
+                    "version" : "3.2.0",
+                    "artifacts" : [
+                        {
+                            "name" : "slick_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.slick/slick_2.11/bundles/slick_2.11-3.2.0.jar"
+                        },
+                        {
+                            "name" : "slick_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.slick/slick_2.11/srcs/slick_2.11-3.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.slick",
+                    "name" : "slick-hikaricp_2.11",
+                    "version" : "3.2.0",
+                    "artifacts" : [
+                        {
+                            "name" : "slick-hikaricp_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.slick/slick-hikaricp_2.11/bundles/slick-hikaricp_2.11-3.2.0.jar"
+                        },
+                        {
+                            "name" : "slick-hikaricp_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.slick/slick-hikaricp_2.11/srcs/slick-hikaricp_2.11-3.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.zaxxer",
+                    "name" : "HikariCP",
+                    "version" : "2.5.1",
+                    "artifacts" : [
+                        {
+                            "name" : "HikariCP",
+                            "path" : "/Users/brakket/.ivy2/cache/com.zaxxer/HikariCP/bundles/HikariCP-2.5.1.jar"
+                        },
+                        {
+                            "name" : "HikariCP",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.zaxxer/HikariCP/srcs/HikariCP-2.5.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.play",
+                    "name" : "play-jdbc-api_2.11",
+                    "version" : "2.5.12",
+                    "artifacts" : [
+                        {
+                            "name" : "play-jdbc-api_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.5.12.jar"
+                        },
+                        {
+                            "name" : "play-jdbc-api_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/srcs/play-jdbc-api_2.11-2.5.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.play",
+                    "name" : "play_2.11",
+                    "version" : "2.5.12",
+                    "artifacts" : [
+                        {
+                            "name" : "play_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.5.12.jar"
+                        },
+                        {
+                            "name" : "play_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.play/play_2.11/srcs/play_2.11-2.5.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.play",
+                    "name" : "build-link",
+                    "version" : "2.5.12",
+                    "artifacts" : [
+                        {
+                            "name" : "build-link",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.5.12.jar"
+                        },
+                        {
+                            "name" : "build-link",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.play/build-link/srcs/build-link-2.5.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.play",
+                    "name" : "play-exceptions",
+                    "version" : "2.5.12",
+                    "artifacts" : [
+                        {
+                            "name" : "play-exceptions",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.5.12.jar"
+                        },
+                        {
+                            "name" : "play-exceptions",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.play/play-exceptions/srcs/play-exceptions-2.5.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.play",
+                    "name" : "play-iteratees_2.11",
+                    "version" : "2.5.12",
+                    "artifacts" : [
+                        {
+                            "name" : "play-iteratees_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.5.12.jar"
+                        },
+                        {
+                            "name" : "play-iteratees_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/srcs/play-iteratees_2.11-2.5.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-stm",
+                    "name" : "scala-stm_2.11",
+                    "version" : "0.7",
+                    "artifacts" : [
+                        {
+                            "name" : "scala-stm_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar"
+                        },
+                        {
+                            "name" : "scala-stm_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/org.scala-stm/scala-stm_2.11/srcs/scala-stm_2.11-0.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.play",
+                    "name" : "play-json_2.11",
+                    "version" : "2.5.12",
+                    "artifacts" : [
+                        {
+                            "name" : "play-json_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.5.12.jar"
+                        },
+                        {
+                            "name" : "play-json_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.play/play-json_2.11/srcs/play-json_2.11-2.5.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.play",
+                    "name" : "play-functional_2.11",
+                    "version" : "2.5.12",
+                    "artifacts" : [
+                        {
+                            "name" : "play-functional_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.5.12.jar"
+                        },
+                        {
+                            "name" : "play-functional_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.play/play-functional_2.11/srcs/play-functional_2.11-2.5.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.play",
+                    "name" : "play-datacommons_2.11",
+                    "version" : "2.5.12",
+                    "artifacts" : [
+                        {
+                            "name" : "play-datacommons_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.5.12.jar"
+                        },
+                        {
+                            "name" : "play-datacommons_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/srcs/play-datacommons_2.11-2.5.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.joda",
+                    "name" : "joda-convert",
+                    "version" : "1.8.1",
+                    "artifacts" : [
+                        {
+                            "name" : "joda-convert",
+                            "path" : "/Users/brakket/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.8.1.jar"
+                        },
+                        {
+                            "name" : "joda-convert",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/org.joda/joda-convert/srcs/joda-convert-1.8.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-lang",
+                    "name" : "scala-reflect",
+                    "version" : "2.11.8",
+                    "artifacts" : [
+                        {
+                            "name" : "scala-reflect",
+                            "path" : "/Users/brakket/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar"
+                        },
+                        {
+                            "name" : "scala-reflect",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.11.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.fasterxml.jackson.core",
+                    "name" : "jackson-databind",
+                    "version" : "2.7.8",
+                    "artifacts" : [
+                        {
+                            "name" : "jackson-databind",
+                            "path" : "/Users/brakket/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.7.8.jar"
+                        },
+                        {
+                            "name" : "jackson-databind",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/srcs/jackson-databind-2.7.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.fasterxml.jackson.datatype",
+                    "name" : "jackson-datatype-jdk8",
+                    "version" : "2.7.8",
+                    "artifacts" : [
+                        {
+                            "name" : "jackson-datatype-jdk8",
+                            "path" : "/Users/brakket/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.7.8.jar"
+                        },
+                        {
+                            "name" : "jackson-datatype-jdk8",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/srcs/jackson-datatype-jdk8-2.7.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.fasterxml.jackson.datatype",
+                    "name" : "jackson-datatype-jsr310",
+                    "version" : "2.7.8",
+                    "artifacts" : [
+                        {
+                            "name" : "jackson-datatype-jsr310",
+                            "path" : "/Users/brakket/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/bundles/jackson-datatype-jsr310-2.7.8.jar"
+                        },
+                        {
+                            "name" : "jackson-datatype-jsr310",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/srcs/jackson-datatype-jsr310-2.7.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.play",
+                    "name" : "play-netty-utils",
+                    "version" : "2.5.12",
+                    "artifacts" : [
+                        {
+                            "name" : "play-netty-utils",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.5.12.jar"
+                        },
+                        {
+                            "name" : "play-netty-utils",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.play/play-netty-utils/srcs/play-netty-utils-2.5.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.slf4j",
+                    "name" : "jul-to-slf4j",
+                    "version" : "1.7.21",
+                    "artifacts" : [
+                        {
+                            "name" : "jul-to-slf4j",
+                            "path" : "/Users/brakket/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.21.jar"
+                        },
+                        {
+                            "name" : "jul-to-slf4j",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/org.slf4j/jul-to-slf4j/srcs/jul-to-slf4j-1.7.21-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.slf4j",
+                    "name" : "jcl-over-slf4j",
+                    "version" : "1.7.21",
+                    "artifacts" : [
+                        {
+                            "name" : "jcl-over-slf4j",
+                            "path" : "/Users/brakket/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.21.jar"
+                        },
+                        {
+                            "name" : "jcl-over-slf4j",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/org.slf4j/jcl-over-slf4j/srcs/jcl-over-slf4j-1.7.21-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.play",
+                    "name" : "play-streams_2.11",
+                    "version" : "2.5.12",
+                    "artifacts" : [
+                        {
+                            "name" : "play-streams_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.play/play-streams_2.11/jars/play-streams_2.11-2.5.12.jar"
+                        },
+                        {
+                            "name" : "play-streams_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.play/play-streams_2.11/srcs/play-streams_2.11-2.5.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-lang.modules",
+                    "name" : "scala-java8-compat_2.11",
+                    "version" : "0.7.0",
+                    "artifacts" : [
+                        {
+                            "name" : "scala-java8-compat_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/bundles/scala-java8-compat_2.11-0.7.0.jar"
+                        },
+                        {
+                            "name" : "scala-java8-compat_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/srcs/scala-java8-compat_2.11-0.7.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.play",
+                    "name" : "twirl-api_2.11",
+                    "version" : "1.1.1",
+                    "artifacts" : [
+                        {
+                            "name" : "twirl-api_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.play/twirl-api_2.11/jars/twirl-api_2.11-1.1.1.jar"
+                        },
+                        {
+                            "name" : "twirl-api_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.play/twirl-api_2.11/srcs/twirl-api_2.11-1.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.apache.commons",
+                    "name" : "commons-lang3",
+                    "version" : "3.4",
+                    "artifacts" : [
+                        {
+                            "name" : "commons-lang3",
+                            "path" : "/Users/brakket/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar"
+                        },
+                        {
+                            "name" : "commons-lang3",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/org.apache.commons/commons-lang3/srcs/commons-lang3-3.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.akka",
+                    "name" : "akka-slf4j_2.11",
+                    "version" : "2.4.14",
+                    "artifacts" : [
+                        {
+                            "name" : "akka-slf4j_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.4.14.jar"
+                        },
+                        {
+                            "name" : "akka-slf4j_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/srcs/akka-slf4j_2.11-2.4.14-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "commons-codec",
+                    "name" : "commons-codec",
+                    "version" : "1.10",
+                    "artifacts" : [
+                        {
+                            "name" : "commons-codec",
+                            "path" : "/Users/brakket/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar"
+                        },
+                        {
+                            "name" : "commons-codec",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "xerces",
+                    "name" : "xercesImpl",
+                    "version" : "2.11.0",
+                    "artifacts" : [
+                        {
+                            "name" : "xercesImpl",
+                            "path" : "/Users/brakket/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar"
+                        },
+                        {
+                            "name" : "xercesImpl",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/xerces/xercesImpl/srcs/xercesImpl-2.11.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "xml-apis",
+                    "name" : "xml-apis",
+                    "version" : "1.4.01",
+                    "artifacts" : [
+                        {
+                            "name" : "xml-apis",
+                            "path" : "/Users/brakket/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar"
+                        },
+                        {
+                            "name" : "xml-apis",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/xml-apis/xml-apis/srcs/xml-apis-1.4.01-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "javax.transaction",
+                    "name" : "jta",
+                    "version" : "1.1",
+                    "artifacts" : [
+                        {
+                            "name" : "jta",
+                            "path" : "/Users/brakket/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar"
+                        },
+                        {
+                            "name" : "jta",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/javax.transaction/jta/srcs/jta-1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.google.inject",
+                    "name" : "guice",
+                    "version" : "4.0",
+                    "artifacts" : [
+                        {
+                            "name" : "guice",
+                            "path" : "/Users/brakket/.ivy2/cache/com.google.inject/guice/jars/guice-4.0.jar"
+                        },
+                        {
+                            "name" : "guice",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.google.inject/guice/srcs/guice-4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "javax.inject",
+                    "name" : "javax.inject",
+                    "version" : "1",
+                    "artifacts" : [
+                        {
+                            "name" : "javax.inject",
+                            "path" : "/Users/brakket/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar"
+                        },
+                        {
+                            "name" : "javax.inject",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/javax.inject/javax.inject/srcs/javax.inject-1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "aopalliance",
+                    "name" : "aopalliance",
+                    "version" : "1.0",
+                    "artifacts" : [
+                        {
+                            "name" : "aopalliance",
+                            "path" : "/Users/brakket/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar"
+                        },
+                        {
+                            "name" : "aopalliance",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/aopalliance/aopalliance/srcs/aopalliance-1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.google.inject.extensions",
+                    "name" : "guice-assistedinject",
+                    "version" : "4.0",
+                    "artifacts" : [
+                        {
+                            "name" : "guice-assistedinject",
+                            "path" : "/Users/brakket/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/jars/guice-assistedinject-4.0.jar"
+                        },
+                        {
+                            "name" : "guice-assistedinject",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/srcs/guice-assistedinject-4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.play",
+                    "name" : "play-slick-evolutions_2.11",
+                    "version" : "2.1.0",
+                    "artifacts" : [
+                        {
+                            "name" : "play-slick-evolutions_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.play/play-slick-evolutions_2.11/jars/play-slick-evolutions_2.11-2.1.0.jar"
+                        },
+                        {
+                            "name" : "play-slick-evolutions_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.play/play-slick-evolutions_2.11/srcs/play-slick-evolutions_2.11-2.1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.play",
+                    "name" : "play-jdbc-evolutions_2.11",
+                    "version" : "2.5.12",
+                    "artifacts" : [
+                        {
+                            "name" : "play-jdbc-evolutions_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.play/play-jdbc-evolutions_2.11/jars/play-jdbc-evolutions_2.11-2.5.12.jar"
+                        },
+                        {
+                            "name" : "play-jdbc-evolutions_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.play/play-jdbc-evolutions_2.11/srcs/play-jdbc-evolutions_2.11-2.5.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.github.tototoshi",
+                    "name" : "slick-joda-mapper_2.11",
+                    "version" : "2.3.0",
+                    "artifacts" : [
+                        {
+                            "name" : "slick-joda-mapper_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/com.github.tototoshi/slick-joda-mapper_2.11/jars/slick-joda-mapper_2.11-2.3.0.jar"
+                        },
+                        {
+                            "name" : "slick-joda-mapper_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.github.tototoshi/slick-joda-mapper_2.11/srcs/slick-joda-mapper_2.11-2.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "mysql",
+                    "name" : "mysql-connector-java",
+                    "version" : "5.1.34",
+                    "artifacts" : [
+                        {
+                            "name" : "mysql-connector-java",
+                            "path" : "/Users/brakket/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.34.jar"
+                        },
+                        {
+                            "name" : "mysql-connector-java",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/mysql/mysql-connector-java/srcs/mysql-connector-java-5.1.34-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "tech.brakket",
+                    "name" : "ota-slick-jdbc_2.11",
+                    "version" : "1.0.0-SNAPSHOT",
+                    "artifacts" : [
+                        {
+                            "name" : "ota-slick-jdbc_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/tech.brakket/ota-slick-jdbc_2.11/jars/ota-slick-jdbc_2.11-1.0.0-SNAPSHOT.jar"
+                        },
+                        {
+                            "name" : "ota-slick-jdbc_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/tech.brakket/ota-slick-jdbc_2.11/srcs/ota-slick-jdbc_2.11-1.0.0-SNAPSHOT-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.mohiva",
+                    "name" : "play-silhouette_2.11",
+                    "version" : "4.0.0",
+                    "artifacts" : [
+                        {
+                            "name" : "play-silhouette_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/com.mohiva/play-silhouette_2.11/jars/play-silhouette_2.11-4.0.0.jar"
+                        },
+                        {
+                            "name" : "play-silhouette_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.mohiva/play-silhouette_2.11/srcs/play-silhouette_2.11-4.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.play",
+                    "name" : "play-server_2.11",
+                    "version" : "2.5.4",
+                    "artifacts" : [
+                        {
+                            "name" : "play-server_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.5.4.jar"
+                        },
+                        {
+                            "name" : "play-server_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.play/play-server_2.11/srcs/play-server_2.11-2.5.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.play",
+                    "name" : "play-netty-server_2.11",
+                    "version" : "2.5.4",
+                    "artifacts" : [
+                        {
+                            "name" : "play-netty-server_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.5.4.jar"
+                        },
+                        {
+                            "name" : "play-netty-server_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/srcs/play-netty-server_2.11-2.5.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.netty",
+                    "name" : "netty-reactive-streams-http",
+                    "version" : "1.0.6",
+                    "artifacts" : [
+                        {
+                            "name" : "netty-reactive-streams-http",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.netty/netty-reactive-streams-http/jars/netty-reactive-streams-http-1.0.6.jar"
+                        },
+                        {
+                            "name" : "netty-reactive-streams-http",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.netty/netty-reactive-streams-http/srcs/netty-reactive-streams-http-1.0.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.netty",
+                    "name" : "netty-reactive-streams",
+                    "version" : "1.0.6",
+                    "artifacts" : [
+                        {
+                            "name" : "netty-reactive-streams",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.netty/netty-reactive-streams/jars/netty-reactive-streams-1.0.6.jar"
+                        },
+                        {
+                            "name" : "netty-reactive-streams",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.netty/netty-reactive-streams/srcs/netty-reactive-streams-1.0.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "io.netty",
+                    "name" : "netty-codec-http",
+                    "version" : "4.0.36.Final",
+                    "artifacts" : [
+                        {
+                            "name" : "netty-codec-http",
+                            "path" : "/Users/brakket/.ivy2/cache/io.netty/netty-codec-http/jars/netty-codec-http-4.0.36.Final.jar"
+                        },
+                        {
+                            "name" : "netty-codec-http",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/io.netty/netty-codec-http/srcs/netty-codec-http-4.0.36.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.play",
+                    "name" : "play-logback_2.11",
+                    "version" : "2.5.4",
+                    "artifacts" : [
+                        {
+                            "name" : "play-logback_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.play/play-logback_2.11/jars/play-logback_2.11-2.5.4.jar"
+                        },
+                        {
+                            "name" : "play-logback_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.play/play-logback_2.11/srcs/play-logback_2.11-2.5.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "ch.qos.logback",
+                    "name" : "logback-classic",
+                    "version" : "1.1.7",
+                    "artifacts" : [
+                        {
+                            "name" : "logback-classic",
+                            "path" : "/Users/brakket/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.7.jar"
+                        },
+                        {
+                            "name" : "logback-classic",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/ch.qos.logback/logback-classic/srcs/logback-classic-1.1.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "ch.qos.logback",
+                    "name" : "logback-core",
+                    "version" : "1.1.7",
+                    "artifacts" : [
+                        {
+                            "name" : "logback-core",
+                            "path" : "/Users/brakket/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.7.jar"
+                        },
+                        {
+                            "name" : "logback-core",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/ch.qos.logback/logback-core/srcs/logback-core-1.1.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.play",
+                    "name" : "play-cache_2.11",
+                    "version" : "2.5.4",
+                    "artifacts" : [
+                        {
+                            "name" : "play-cache_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.5.4.jar"
+                        },
+                        {
+                            "name" : "play-cache_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.play/play-cache_2.11/srcs/play-cache_2.11-2.5.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "net.sf.ehcache",
+                    "name" : "ehcache-core",
+                    "version" : "2.6.11",
+                    "artifacts" : [
+                        {
+                            "name" : "ehcache-core",
+                            "path" : "/Users/brakket/.ivy2/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-2.6.11.jar"
+                        },
+                        {
+                            "name" : "ehcache-core",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/net.sf.ehcache/ehcache-core/srcs/ehcache-core-2.6.11-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.play",
+                    "name" : "play-ws_2.11",
+                    "version" : "2.5.4",
+                    "artifacts" : [
+                        {
+                            "name" : "play-ws_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.5.4.jar"
+                        },
+                        {
+                            "name" : "play-ws_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.play/play-ws_2.11/srcs/play-ws_2.11-2.5.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.google.guava",
+                    "name" : "guava",
+                    "version" : "19.0",
+                    "artifacts" : [
+                        {
+                            "name" : "guava",
+                            "path" : "/Users/brakket/.ivy2/cache/com.google.guava/guava/bundles/guava-19.0.jar"
+                        },
+                        {
+                            "name" : "guava",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.google.guava/guava/srcs/guava-19.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.asynchttpclient",
+                    "name" : "async-http-client",
+                    "version" : "2.0.2",
+                    "artifacts" : [
+                        {
+                            "name" : "async-http-client",
+                            "path" : "/Users/brakket/.ivy2/cache/org.asynchttpclient/async-http-client/jars/async-http-client-2.0.2.jar"
+                        },
+                        {
+                            "name" : "async-http-client",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/org.asynchttpclient/async-http-client/srcs/async-http-client-2.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.asynchttpclient",
+                    "name" : "netty-resolver-dns",
+                    "version" : "2.0.2",
+                    "artifacts" : [
+                        {
+                            "name" : "netty-resolver-dns",
+                            "path" : "/Users/brakket/.ivy2/cache/org.asynchttpclient/netty-resolver-dns/jars/netty-resolver-dns-2.0.2.jar"
+                        },
+                        {
+                            "name" : "netty-resolver-dns",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/org.asynchttpclient/netty-resolver-dns/srcs/netty-resolver-dns-2.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.asynchttpclient",
+                    "name" : "netty-resolver",
+                    "version" : "2.0.2",
+                    "artifacts" : [
+                        {
+                            "name" : "netty-resolver",
+                            "path" : "/Users/brakket/.ivy2/cache/org.asynchttpclient/netty-resolver/jars/netty-resolver-2.0.2.jar"
+                        },
+                        {
+                            "name" : "netty-resolver",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/org.asynchttpclient/netty-resolver/srcs/netty-resolver-2.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.asynchttpclient",
+                    "name" : "netty-codec-dns",
+                    "version" : "2.0.2",
+                    "artifacts" : [
+                        {
+                            "name" : "netty-codec-dns",
+                            "path" : "/Users/brakket/.ivy2/cache/org.asynchttpclient/netty-codec-dns/jars/netty-codec-dns-2.0.2.jar"
+                        },
+                        {
+                            "name" : "netty-codec-dns",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/org.asynchttpclient/netty-codec-dns/srcs/netty-codec-dns-2.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.javassist",
+                    "name" : "javassist",
+                    "version" : "3.20.0-GA",
+                    "artifacts" : [
+                        {
+                            "name" : "javassist",
+                            "path" : "/Users/brakket/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.20.0-GA.jar"
+                        },
+                        {
+                            "name" : "javassist",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/org.javassist/javassist/srcs/javassist-3.20.0-GA-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "oauth.signpost",
+                    "name" : "signpost-core",
+                    "version" : "1.2.1.2",
+                    "artifacts" : [
+                        {
+                            "name" : "signpost-core",
+                            "path" : "/Users/brakket/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar"
+                        },
+                        {
+                            "name" : "signpost-core",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/oauth.signpost/signpost-core/srcs/signpost-core-1.2.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "oauth.signpost",
+                    "name" : "signpost-commonshttp4",
+                    "version" : "1.2.1.2",
+                    "artifacts" : [
+                        {
+                            "name" : "signpost-commonshttp4",
+                            "path" : "/Users/brakket/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar"
+                        },
+                        {
+                            "name" : "signpost-commonshttp4",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/oauth.signpost/signpost-commonshttp4/srcs/signpost-commonshttp4-1.2.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.atlassian.jwt",
+                    "name" : "jwt-core",
+                    "version" : "1.5.8",
+                    "artifacts" : [
+                        {
+                            "name" : "jwt-core",
+                            "path" : "/Users/brakket/.ivy2/cache/com.atlassian.jwt/jwt-core/jars/jwt-core-1.5.8.jar"
+                        },
+                        {
+                            "name" : "jwt-core",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.atlassian.jwt/jwt-core/srcs/jwt-core-1.5.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.nimbusds",
+                    "name" : "nimbus-jose-jwt",
+                    "version" : "2.16",
+                    "artifacts" : [
+                        {
+                            "name" : "nimbus-jose-jwt",
+                            "path" : "/Users/brakket/.ivy2/cache/com.nimbusds/nimbus-jose-jwt/jars/nimbus-jose-jwt-2.16.jar"
+                        },
+                        {
+                            "name" : "nimbus-jose-jwt",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.nimbusds/nimbus-jose-jwt/srcs/nimbus-jose-jwt-2.16-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "net.jcip",
+                    "name" : "jcip-annotations",
+                    "version" : "1.0",
+                    "artifacts" : [
+                        {
+                            "name" : "jcip-annotations",
+                            "path" : "/Users/brakket/.ivy2/cache/net.jcip/jcip-annotations/jars/jcip-annotations-1.0.jar"
+                        },
+                        {
+                            "name" : "jcip-annotations",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/net.jcip/jcip-annotations/srcs/jcip-annotations-1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "net.minidev",
+                    "name" : "json-smart",
+                    "version" : "1.1.1",
+                    "artifacts" : [
+                        {
+                            "name" : "json-smart",
+                            "path" : "/Users/brakket/.ivy2/cache/net.minidev/json-smart/jars/json-smart-1.1.1.jar"
+                        },
+                        {
+                            "name" : "json-smart",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/net.minidev/json-smart/srcs/json-smart-1.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "javax.mail",
+                    "name" : "mail",
+                    "version" : "1.4.7",
+                    "artifacts" : [
+                        {
+                            "name" : "mail",
+                            "path" : "/Users/brakket/.ivy2/cache/javax.mail/mail/jars/mail-1.4.7.jar"
+                        },
+                        {
+                            "name" : "mail",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/javax.mail/mail/srcs/mail-1.4.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "javax.activation",
+                    "name" : "activation",
+                    "version" : "1.1",
+                    "artifacts" : [
+                        {
+                            "name" : "activation",
+                            "path" : "/Users/brakket/.ivy2/cache/javax.activation/activation/jars/activation-1.1.jar"
+                        },
+                        {
+                            "name" : "activation",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/javax.activation/activation/srcs/activation-1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.bouncycastle",
+                    "name" : "bcprov-jdk15on",
+                    "version" : "1.51",
+                    "artifacts" : [
+                        {
+                            "name" : "bcprov-jdk15on",
+                            "path" : "/Users/brakket/.ivy2/cache/org.bouncycastle/bcprov-jdk15on/jars/bcprov-jdk15on-1.51.jar"
+                        },
+                        {
+                            "name" : "bcprov-jdk15on",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/org.bouncycastle/bcprov-jdk15on/srcs/bcprov-jdk15on-1.51-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.bouncycastle",
+                    "name" : "bcpkix-jdk15on",
+                    "version" : "1.51",
+                    "artifacts" : [
+                        {
+                            "name" : "bcpkix-jdk15on",
+                            "path" : "/Users/brakket/.ivy2/cache/org.bouncycastle/bcpkix-jdk15on/jars/bcpkix-jdk15on-1.51.jar"
+                        },
+                        {
+                            "name" : "bcpkix-jdk15on",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/org.bouncycastle/bcpkix-jdk15on/srcs/bcpkix-jdk15on-1.51-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.atlassian.jwt",
+                    "name" : "jwt-api",
+                    "version" : "1.5.8",
+                    "artifacts" : [
+                        {
+                            "name" : "jwt-api",
+                            "path" : "/Users/brakket/.ivy2/cache/com.atlassian.jwt/jwt-api/jars/jwt-api-1.5.8.jar"
+                        },
+                        {
+                            "name" : "jwt-api",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.atlassian.jwt/jwt-api/srcs/jwt-api-1.5.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.google.code.findbugs",
+                    "name" : "jsr305",
+                    "version" : "2.0.1",
+                    "artifacts" : [
+                        {
+                            "name" : "jsr305",
+                            "path" : "/Users/brakket/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-2.0.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.apache.commons",
+                    "name" : "commons-math3",
+                    "version" : "3.6.1",
+                    "artifacts" : [
+                        {
+                            "name" : "commons-math3",
+                            "path" : "/Users/brakket/.ivy2/cache/org.apache.commons/commons-math3/jars/commons-math3-3.6.1.jar"
+                        },
+                        {
+                            "name" : "commons-math3",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/org.apache.commons/commons-math3/srcs/commons-math3-3.6.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.apache.httpcomponents",
+                    "name" : "httpclient",
+                    "version" : "4.5.3",
+                    "artifacts" : [
+                        {
+                            "name" : "httpclient",
+                            "path" : "/Users/brakket/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.5.3.jar"
+                        },
+                        {
+                            "name" : "httpclient",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/org.apache.httpcomponents/httpclient/srcs/httpclient-4.5.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "commons-logging",
+                    "name" : "commons-logging",
+                    "version" : "1.2",
+                    "artifacts" : [
+                        {
+                            "name" : "commons-logging",
+                            "path" : "/Users/brakket/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.2.jar"
+                        },
+                        {
+                            "name" : "commons-logging",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/commons-logging/commons-logging/srcs/commons-logging-1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "joda-time",
+                    "name" : "joda-time",
+                    "version" : "2.9.9",
+                    "artifacts" : [
+                        {
+                            "name" : "joda-time",
+                            "path" : "/Users/brakket/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.9.9.jar"
+                        },
+                        {
+                            "name" : "joda-time",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/joda-time/joda-time/srcs/joda-time-2.9.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "commons-io",
+                    "name" : "commons-io",
+                    "version" : "2.6",
+                    "artifacts" : [
+                        {
+                            "name" : "commons-io",
+                            "path" : "/Users/brakket/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.6.jar"
+                        },
+                        {
+                            "name" : "commons-io",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/commons-io/commons-io/srcs/commons-io-2.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.json4s",
+                    "name" : "json4s-native_2.11",
+                    "version" : "3.5.0",
+                    "artifacts" : [
+                        {
+                            "name" : "json4s-native_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/org.json4s/json4s-native_2.11/jars/json4s-native_2.11-3.5.0.jar"
+                        },
+                        {
+                            "name" : "json4s-native_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/org.json4s/json4s-native_2.11/srcs/json4s-native_2.11-3.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.json4s",
+                    "name" : "json4s-core_2.11",
+                    "version" : "3.5.0",
+                    "artifacts" : [
+                        {
+                            "name" : "json4s-core_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/org.json4s/json4s-core_2.11/jars/json4s-core_2.11-3.5.0.jar"
+                        },
+                        {
+                            "name" : "json4s-core_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/org.json4s/json4s-core_2.11/srcs/json4s-core_2.11-3.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.json4s",
+                    "name" : "json4s-ast_2.11",
+                    "version" : "3.5.0",
+                    "artifacts" : [
+                        {
+                            "name" : "json4s-ast_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/org.json4s/json4s-ast_2.11/jars/json4s-ast_2.11-3.5.0.jar"
+                        },
+                        {
+                            "name" : "json4s-ast_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/org.json4s/json4s-ast_2.11/srcs/json4s-ast_2.11-3.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.json4s",
+                    "name" : "json4s-scalap_2.11",
+                    "version" : "3.5.0",
+                    "artifacts" : [
+                        {
+                            "name" : "json4s-scalap_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/org.json4s/json4s-scalap_2.11/jars/json4s-scalap_2.11-3.5.0.jar"
+                        },
+                        {
+                            "name" : "json4s-scalap_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/org.json4s/json4s-scalap_2.11/srcs/json4s-scalap_2.11-3.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.thoughtworks.paranamer",
+                    "name" : "paranamer",
+                    "version" : "2.8",
+                    "artifacts" : [
+                        {
+                            "name" : "paranamer",
+                            "path" : "/Users/brakket/.ivy2/cache/com.thoughtworks.paranamer/paranamer/bundles/paranamer-2.8.jar"
+                        },
+                        {
+                            "name" : "paranamer",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.thoughtworks.paranamer/paranamer/srcs/paranamer-2.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-lang.modules",
+                    "name" : "scala-xml_2.11",
+                    "version" : "1.0.6",
+                    "artifacts" : [
+                        {
+                            "name" : "scala-xml_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.6.jar"
+                        },
+                        {
+                            "name" : "scala-xml_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/srcs/scala-xml_2.11-1.0.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.jsoup",
+                    "name" : "jsoup",
+                    "version" : "1.10.2",
+                    "artifacts" : [
+                        {
+                            "name" : "jsoup",
+                            "path" : "/Users/brakket/.ivy2/cache/org.jsoup/jsoup/jars/jsoup-1.10.2.jar"
+                        },
+                        {
+                            "name" : "jsoup",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/org.jsoup/jsoup/srcs/jsoup-1.10.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.fasterxml.jackson.core",
+                    "name" : "jackson-core",
+                    "version" : "2.8.8",
+                    "artifacts" : [
+                        {
+                            "name" : "jackson-core",
+                            "path" : "/Users/brakket/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.8.8.jar"
+                        },
+                        {
+                            "name" : "jackson-core",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/srcs/jackson-core-2.8.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.fasterxml.jackson.core",
+                    "name" : "jackson-annotations",
+                    "version" : "2.8.8",
+                    "artifacts" : [
+                        {
+                            "name" : "jackson-annotations",
+                            "path" : "/Users/brakket/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.8.8.jar"
+                        },
+                        {
+                            "name" : "jackson-annotations",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/srcs/jackson-annotations-2.8.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "io.circe",
+                    "name" : "circe-core_2.11",
+                    "version" : "0.9.3",
+                    "artifacts" : [
+                        {
+                            "name" : "circe-core_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/io.circe/circe-core_2.11/jars/circe-core_2.11-0.9.3.jar"
+                        },
+                        {
+                            "name" : "circe-core_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/io.circe/circe-core_2.11/srcs/circe-core_2.11-0.9.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "io.circe",
+                    "name" : "circe-numbers_2.11",
+                    "version" : "0.9.3",
+                    "artifacts" : [
+                        {
+                            "name" : "circe-numbers_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/io.circe/circe-numbers_2.11/jars/circe-numbers_2.11-0.9.3.jar"
+                        },
+                        {
+                            "name" : "circe-numbers_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/io.circe/circe-numbers_2.11/srcs/circe-numbers_2.11-0.9.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.typelevel",
+                    "name" : "cats-core_2.11",
+                    "version" : "1.0.1",
+                    "artifacts" : [
+                        {
+                            "name" : "cats-core_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/org.typelevel/cats-core_2.11/jars/cats-core_2.11-1.0.1.jar"
+                        },
+                        {
+                            "name" : "cats-core_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/org.typelevel/cats-core_2.11/srcs/cats-core_2.11-1.0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.typelevel",
+                    "name" : "cats-macros_2.11",
+                    "version" : "1.0.1",
+                    "artifacts" : [
+                        {
+                            "name" : "cats-macros_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/org.typelevel/cats-macros_2.11/jars/cats-macros_2.11-1.0.1.jar"
+                        },
+                        {
+                            "name" : "cats-macros_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/org.typelevel/cats-macros_2.11/srcs/cats-macros_2.11-1.0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.typelevel",
+                    "name" : "machinist_2.11",
+                    "version" : "0.6.2",
+                    "artifacts" : [
+                        {
+                            "name" : "machinist_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/org.typelevel/machinist_2.11/jars/machinist_2.11-0.6.2.jar"
+                        },
+                        {
+                            "name" : "machinist_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/org.typelevel/machinist_2.11/srcs/machinist_2.11-0.6.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.typelevel",
+                    "name" : "cats-kernel_2.11",
+                    "version" : "1.0.1",
+                    "artifacts" : [
+                        {
+                            "name" : "cats-kernel_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/org.typelevel/cats-kernel_2.11/jars/cats-kernel_2.11-1.0.1.jar"
+                        },
+                        {
+                            "name" : "cats-kernel_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/org.typelevel/cats-kernel_2.11/srcs/cats-kernel_2.11-1.0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "io.circe",
+                    "name" : "circe-generic_2.11",
+                    "version" : "0.9.3",
+                    "artifacts" : [
+                        {
+                            "name" : "circe-generic_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/io.circe/circe-generic_2.11/jars/circe-generic_2.11-0.9.3.jar"
+                        },
+                        {
+                            "name" : "circe-generic_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/io.circe/circe-generic_2.11/srcs/circe-generic_2.11-0.9.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.typelevel",
+                    "name" : "macro-compat_2.11",
+                    "version" : "1.1.1",
+                    "artifacts" : [
+                        {
+                            "name" : "macro-compat_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/org.typelevel/macro-compat_2.11/jars/macro-compat_2.11-1.1.1.jar"
+                        },
+                        {
+                            "name" : "macro-compat_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/org.typelevel/macro-compat_2.11/srcs/macro-compat_2.11-1.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.chuusai",
+                    "name" : "shapeless_2.11",
+                    "version" : "2.3.3",
+                    "artifacts" : [
+                        {
+                            "name" : "shapeless_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/com.chuusai/shapeless_2.11/bundles/shapeless_2.11-2.3.3.jar"
+                        },
+                        {
+                            "name" : "shapeless_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.chuusai/shapeless_2.11/srcs/shapeless_2.11-2.3.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "io.circe",
+                    "name" : "circe-parser_2.11",
+                    "version" : "0.9.3",
+                    "artifacts" : [
+                        {
+                            "name" : "circe-parser_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/io.circe/circe-parser_2.11/jars/circe-parser_2.11-0.9.3.jar"
+                        },
+                        {
+                            "name" : "circe-parser_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/io.circe/circe-parser_2.11/srcs/circe-parser_2.11-0.9.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "io.circe",
+                    "name" : "circe-jawn_2.11",
+                    "version" : "0.9.3",
+                    "artifacts" : [
+                        {
+                            "name" : "circe-jawn_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/io.circe/circe-jawn_2.11/jars/circe-jawn_2.11-0.9.3.jar"
+                        },
+                        {
+                            "name" : "circe-jawn_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/io.circe/circe-jawn_2.11/srcs/circe-jawn_2.11-0.9.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.spire-math",
+                    "name" : "jawn-parser_2.11",
+                    "version" : "0.11.1",
+                    "artifacts" : [
+                        {
+                            "name" : "jawn-parser_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/org.spire-math/jawn-parser_2.11/jars/jawn-parser_2.11-0.11.1.jar"
+                        },
+                        {
+                            "name" : "jawn-parser_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/org.spire-math/jawn-parser_2.11/srcs/jawn-parser_2.11-0.11.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.google.code.gson",
+                    "name" : "gson",
+                    "version" : "2.8.5",
+                    "artifacts" : [
+                        {
+                            "name" : "gson",
+                            "path" : "/Users/brakket/.ivy2/cache/com.google.code.gson/gson/jars/gson-2.8.5.jar"
+                        },
+                        {
+                            "name" : "gson",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.google.code.gson/gson/srcs/gson-2.8.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.datastax.cassandra",
+                    "name" : "cassandra-driver-core",
+                    "version" : "3.5.0",
+                    "artifacts" : [
+                        {
+                            "name" : "cassandra-driver-core",
+                            "path" : "/Users/brakket/.ivy2/cache/com.datastax.cassandra/cassandra-driver-core/jars/cassandra-driver-core-3.5.0.jar"
+                        },
+                        {
+                            "name" : "cassandra-driver-core",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.datastax.cassandra/cassandra-driver-core/srcs/cassandra-driver-core-3.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "io.netty",
+                    "name" : "netty-handler",
+                    "version" : "4.0.56.Final",
+                    "artifacts" : [
+                        {
+                            "name" : "netty-handler",
+                            "path" : "/Users/brakket/.ivy2/cache/io.netty/netty-handler/jars/netty-handler-4.0.56.Final.jar"
+                        },
+                        {
+                            "name" : "netty-handler",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/io.netty/netty-handler/srcs/netty-handler-4.0.56.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "io.netty",
+                    "name" : "netty-buffer",
+                    "version" : "4.0.56.Final",
+                    "artifacts" : [
+                        {
+                            "name" : "netty-buffer",
+                            "path" : "/Users/brakket/.ivy2/cache/io.netty/netty-buffer/jars/netty-buffer-4.0.56.Final.jar"
+                        },
+                        {
+                            "name" : "netty-buffer",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/io.netty/netty-buffer/srcs/netty-buffer-4.0.56.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "io.netty",
+                    "name" : "netty-common",
+                    "version" : "4.0.56.Final",
+                    "artifacts" : [
+                        {
+                            "name" : "netty-common",
+                            "path" : "/Users/brakket/.ivy2/cache/io.netty/netty-common/jars/netty-common-4.0.56.Final.jar"
+                        },
+                        {
+                            "name" : "netty-common",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/io.netty/netty-common/srcs/netty-common-4.0.56.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "io.netty",
+                    "name" : "netty-transport",
+                    "version" : "4.0.56.Final",
+                    "artifacts" : [
+                        {
+                            "name" : "netty-transport",
+                            "path" : "/Users/brakket/.ivy2/cache/io.netty/netty-transport/jars/netty-transport-4.0.56.Final.jar"
+                        },
+                        {
+                            "name" : "netty-transport",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/io.netty/netty-transport/srcs/netty-transport-4.0.56.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "io.netty",
+                    "name" : "netty-codec",
+                    "version" : "4.0.56.Final",
+                    "artifacts" : [
+                        {
+                            "name" : "netty-codec",
+                            "path" : "/Users/brakket/.ivy2/cache/io.netty/netty-codec/jars/netty-codec-4.0.56.Final.jar"
+                        },
+                        {
+                            "name" : "netty-codec",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/io.netty/netty-codec/srcs/netty-codec-4.0.56.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "io.dropwizard.metrics",
+                    "name" : "metrics-core",
+                    "version" : "3.2.2",
+                    "artifacts" : [
+                        {
+                            "name" : "metrics-core",
+                            "path" : "/Users/brakket/.ivy2/cache/io.dropwizard.metrics/metrics-core/bundles/metrics-core-3.2.2.jar"
+                        },
+                        {
+                            "name" : "metrics-core",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/io.dropwizard.metrics/metrics-core/srcs/metrics-core-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.slf4j",
+                    "name" : "slf4j-api",
+                    "version" : "1.7.25",
+                    "artifacts" : [
+                        {
+                            "name" : "slf4j-api",
+                            "path" : "/Users/brakket/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.25.jar"
+                        },
+                        {
+                            "name" : "slf4j-api",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.25-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.github.jnr",
+                    "name" : "jnr-ffi",
+                    "version" : "2.1.7",
+                    "artifacts" : [
+                        {
+                            "name" : "jnr-ffi",
+                            "path" : "/Users/brakket/.ivy2/cache/com.github.jnr/jnr-ffi/jars/jnr-ffi-2.1.7.jar"
+                        },
+                        {
+                            "name" : "jnr-ffi",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.github.jnr/jnr-ffi/srcs/jnr-ffi-2.1.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.github.jnr",
+                    "name" : "jffi",
+                    "version" : "1.2.16",
+                    "artifacts" : [
+                        {
+                            "name" : "jffi",
+                            "path" : "/Users/brakket/.ivy2/cache/com.github.jnr/jffi/jars/jffi-1.2.16.jar"
+                        },
+                        {
+                            "name" : "jffi",
+                            "classifier" : "native",
+                            "path" : "/Users/brakket/.ivy2/cache/com.github.jnr/jffi/jars/jffi-1.2.16-native.jar"
+                        },
+                        {
+                            "name" : "jffi",
+                            "classifier" : "native",
+                            "path" : "/Users/brakket/.ivy2/cache/com.github.jnr/jffi/jars/jffi-1.2.16-native.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.ow2.asm",
+                    "name" : "asm",
+                    "version" : "5.0.3",
+                    "artifacts" : [
+                        {
+                            "name" : "asm",
+                            "path" : "/Users/brakket/.ivy2/cache/org.ow2.asm/asm/jars/asm-5.0.3.jar"
+                        },
+                        {
+                            "name" : "asm",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/org.ow2.asm/asm/srcs/asm-5.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.ow2.asm",
+                    "name" : "asm-commons",
+                    "version" : "5.0.3",
+                    "artifacts" : [
+                        {
+                            "name" : "asm-commons",
+                            "path" : "/Users/brakket/.ivy2/cache/org.ow2.asm/asm-commons/jars/asm-commons-5.0.3.jar"
+                        },
+                        {
+                            "name" : "asm-commons",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/org.ow2.asm/asm-commons/srcs/asm-commons-5.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.ow2.asm",
+                    "name" : "asm-tree",
+                    "version" : "5.0.3",
+                    "artifacts" : [
+                        {
+                            "name" : "asm-tree",
+                            "path" : "/Users/brakket/.ivy2/cache/org.ow2.asm/asm-tree/jars/asm-tree-5.0.3.jar"
+                        },
+                        {
+                            "name" : "asm-tree",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/org.ow2.asm/asm-tree/srcs/asm-tree-5.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.ow2.asm",
+                    "name" : "asm-analysis",
+                    "version" : "5.0.3",
+                    "artifacts" : [
+                        {
+                            "name" : "asm-analysis",
+                            "path" : "/Users/brakket/.ivy2/cache/org.ow2.asm/asm-analysis/jars/asm-analysis-5.0.3.jar"
+                        },
+                        {
+                            "name" : "asm-analysis",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/org.ow2.asm/asm-analysis/srcs/asm-analysis-5.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.ow2.asm",
+                    "name" : "asm-util",
+                    "version" : "5.0.3",
+                    "artifacts" : [
+                        {
+                            "name" : "asm-util",
+                            "path" : "/Users/brakket/.ivy2/cache/org.ow2.asm/asm-util/jars/asm-util-5.0.3.jar"
+                        },
+                        {
+                            "name" : "asm-util",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/org.ow2.asm/asm-util/srcs/asm-util-5.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.github.jnr",
+                    "name" : "jnr-x86asm",
+                    "version" : "1.0.2",
+                    "artifacts" : [
+                        {
+                            "name" : "jnr-x86asm",
+                            "path" : "/Users/brakket/.ivy2/cache/com.github.jnr/jnr-x86asm/jars/jnr-x86asm-1.0.2.jar"
+                        },
+                        {
+                            "name" : "jnr-x86asm",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.github.jnr/jnr-x86asm/srcs/jnr-x86asm-1.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.github.jnr",
+                    "name" : "jnr-posix",
+                    "version" : "3.0.44",
+                    "artifacts" : [
+                        {
+                            "name" : "jnr-posix",
+                            "path" : "/Users/brakket/.ivy2/cache/com.github.jnr/jnr-posix/jars/jnr-posix-3.0.44.jar"
+                        },
+                        {
+                            "name" : "jnr-posix",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.github.jnr/jnr-posix/srcs/jnr-posix-3.0.44-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.github.jnr",
+                    "name" : "jnr-constants",
+                    "version" : "0.9.9",
+                    "artifacts" : [
+                        {
+                            "name" : "jnr-constants",
+                            "path" : "/Users/brakket/.ivy2/cache/com.github.jnr/jnr-constants/jars/jnr-constants-0.9.9.jar"
+                        },
+                        {
+                            "name" : "jnr-constants",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.github.jnr/jnr-constants/srcs/jnr-constants-0.9.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.akka",
+                    "name" : "akka-actor_2.11",
+                    "version" : "2.5.12",
+                    "artifacts" : [
+                        {
+                            "name" : "akka-actor_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.5.12.jar"
+                        },
+                        {
+                            "name" : "akka-actor_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/srcs/akka-actor_2.11-2.5.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe",
+                    "name" : "config",
+                    "version" : "1.3.2",
+                    "artifacts" : [
+                        {
+                            "name" : "config",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe/config/bundles/config-1.3.2.jar"
+                        },
+                        {
+                            "name" : "config",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe/config/srcs/config-1.3.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.akka",
+                    "name" : "akka-stream_2.11",
+                    "version" : "2.5.12",
+                    "artifacts" : [
+                        {
+                            "name" : "akka-stream_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/jars/akka-stream_2.11-2.5.12.jar"
+                        },
+                        {
+                            "name" : "akka-stream_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/srcs/akka-stream_2.11-2.5.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe.akka",
+                    "name" : "akka-protobuf_2.11",
+                    "version" : "2.5.12",
+                    "artifacts" : [
+                        {
+                            "name" : "akka-protobuf_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.11/jars/akka-protobuf_2.11-2.5.12.jar"
+                        },
+                        {
+                            "name" : "akka-protobuf_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.11/srcs/akka-protobuf_2.11-2.5.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.typesafe",
+                    "name" : "ssl-config-core_2.11",
+                    "version" : "0.2.3",
+                    "artifacts" : [
+                        {
+                            "name" : "ssl-config-core_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe/ssl-config-core_2.11/bundles/ssl-config-core_2.11-0.2.3.jar"
+                        },
+                        {
+                            "name" : "ssl-config-core_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/com.typesafe/ssl-config-core_2.11/srcs/ssl-config-core_2.11-0.2.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-lang.modules",
+                    "name" : "scala-parser-combinators_2.11",
+                    "version" : "1.1.0",
+                    "artifacts" : [
+                        {
+                            "name" : "scala-parser-combinators_2.11",
+                            "path" : "/Users/brakket/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.1.0.jar"
+                        },
+                        {
+                            "name" : "scala-parser-combinators_2.11",
+                            "classifier" : "sources",
+                            "path" : "/Users/brakket/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/srcs/scala-parser-combinators_2.11-1.1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.reactivestreams",
+                    "name" : "reactive-streams",
+                    "version" : "1.0.0",
+                    "artifacts" : [
+                        {
+                            "name" : "reactive-streams",
+                            "path" : "/Users/brakket/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.apache.httpcomponents",
+                    "name" : "httpcore",
+                    "version" : "4.0.1",
+                    "artifacts" : [
+                        {
+                            "name" : "httpcore",
+                            "path" : "/Users/brakket/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.0.1.jar"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

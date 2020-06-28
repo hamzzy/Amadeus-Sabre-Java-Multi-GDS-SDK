@@ -1,0 +1,146 @@
+amadeus {
+  name: "Amadeus"
+  pseudoCityCode: "LOSN828TN"
+  system.mode: "Production"
+  provider.userID: "Travelden"
+  provider.password: "tr@v3l"
+  currency.naira: "NGN"
+  requestor.id: "Travelden"
+  requestor.type: "21"
+  lowfarematrix.endpoint: ""
+}
+
+sabre {
+  endpoint: "https://webservices.sabre.com/websvc",
+  serviceType: "OTA",
+  domain: "DEFAULT",
+  pcc: "8Z7I",
+  username: "403697",
+  password: "WS341705",
+  conversationId: "jamiu@brakket.tech",
+  partyIdType: "urn:x12.org:IO5:01",
+  partyIdTo: "webservices.sabre.com",
+  partyIdFrom: "www.icarrygo.com",
+  partyIdDomain: "icarrygo.com",
+  currency: "NGN",
+  agency: {
+    addressLine: "iCarryGo.com Limited",
+    name: "iCarryGo.com Agency",
+    city: "Abuja",
+    countryCode: "NGN",
+    stateCode: "ABV",
+    postalCode: "900288",
+    streetNumber: "19 Alexandria Crescent WUSE 2"
+  },
+  log: {
+    path = "/Users/brakket/projects/travel-sdk-api/ota-ws-integrations/log"
+  }
+  bfm: {
+    version: "5.2.0",
+    action: "BargainFinderMaxRQ",
+    service: "Air Shopping Service",
+    description: "Bargain Finder Max Service",
+    requestType: "100ITINS",
+    segmentType: "O",
+    longConnectTime: {min: "789", max: "2160"}
+  },
+  bfmAd: {
+    version: "5.2.0",
+    action: "BargainFinderMax_ADRQ",
+    service: "Air Shopping Service",
+    description: "Bargain Finder Max Alternate Date Service",
+    requestType: "AD3",
+    segmentType: "O",
+    longConnectTime: {min: "781", max: "2160"}
+  },
+  enhancedAirBook: {
+    version: "3.2.0",
+    action: "EnhancedAirBookRQ",
+    service: "EnhancedAirBookRQ",
+    description: "Enhanced Air Book Service",
+  },
+  passengerDetails: {
+    version: "3.2.0",
+    action: "PassengerDetailsRQ",
+    service: "PassengerDetailsRQ",
+    description: "Passenger Details Service",
+    ticketType: "7TAW",
+    fopRemarkType: "CASH"
+  }
+}
+//amadeus {
+//  name: "Amadeus"
+//  pseudoCityCode: "LOSN828PE"
+//  system.mode: "Production"
+//  provider.userID: "Pat-EloTravel"
+//  provider.password: "kjhF4#dr@"
+//  currency.naira: "NGN"
+//  requestor.id: "Pat-EloTravel"
+//  requestor.type: "21"
+//  lowfarematrix.endpoint: ""
+//}
+
+//amadeus {
+//  name: "Amadeus"
+//  pseudoCityCode: "LOSN828FB"
+//  system.mode: "Production"
+//  provider.userID: "Fly4CheaperLimited"
+//  provider.password: "QF?2TtMK"
+//  currency.naira: "NGN"
+//  requestor.id: "Fly4CheaperLimited"
+//  requestor.type: "21"
+//  lowfarematrix.endpoint: ""
+//}
+
+ePowerAmadeus {
+  supplier.username: "WSROYALCWS_STG"
+  supplier.password: "r#sc3W!x"
+  supplier.clientid: "24732509"
+  supplier.currency: "NGN"
+  supplier.resultperquery: 250
+  supplier.eftresultperquery: 250
+  supplier.wsdlurl: "https://staging-ws.epower.amadeus.com/WSROYALCWS/EpowerService.asmx"
+}
+
+
+crane {
+  supplier.username = "VALUEJET OTA"
+  supplier.password = "FFV"
+  //  supplier.clientIp = "105.112.44.226"
+  supplier.clientIp = "129.0.0.1"
+  supplier.currency = "NGN"
+  supplier.serviceMU = 1604.5
+  supplier.language = "EN"
+  supplier.mcoNumber = "4000006043"
+  supplier.endpointUrl = "https://ara-stage.crane.aero/craneota/CraneOTAService"
+}
+
+crane {
+  supplier.username = "Flyvaluejet"
+  supplier.password = "Value1234!"
+  supplier.clientIp = "188.166.138.207"
+  supplier.serviceMU = 1604.5
+  supplier.currency = "NGN"
+  supplier.language = "EN"
+  supplier.mcoNumber = "INV400000110"
+  supplier.endpointUrl = "https://arikair.crane.aero/craneota/CraneOTAService"
+}
+
+amadeus {
+  name: "Amadeus"
+  pseudoCityCode: "ABVN828TP"
+  system.mode: "Production"
+  provider.userID: "TravelPlaceNG"
+  provider.password: "dr%GY6De3"
+  currency.naira: "NGN"
+  requestor.id: "TravelPlaceNG"
+  requestor.type: "21"
+  lowfarematrix.endpoint: ""
+}
+
+
+amadeusRestful {
+  endpointUrl: "https://test.api.amadeus.com/v1"
+  apiKey: "226UQXftfPIwOntVJWBocXg0zRhKkC7f"
+  apiSecret: "4A05uSOmwnVzXNoH"
+}

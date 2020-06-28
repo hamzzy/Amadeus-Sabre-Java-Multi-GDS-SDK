@@ -1,0 +1,1462 @@
+The server is listening for incoming connections at local:///var/folders/rr/182jzwws5g975xt2v3f6zfjm0000gn/T/bsp6374890360954379489/-4pcqo6gnhzxb.socket...
+Accepted incoming BSP client connection at local:///var/folders/rr/182jzwws5g975xt2v3f6zfjm0000gn/T/bsp6374890360954379489/-4pcqo6gnhzxb.socket
+request received: build/initialize
+BSP initialization handshake complete.
+May 29, 2019 12:36:50 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 29, 2019 1:56:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 550
+May 29, 2019 2:26:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 29, 2019 2:26:02 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 29, 2019 9:14:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2356
+May 30, 2019 9:06:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2524
+May 30, 2019 9:06:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2528
+May 30, 2019 10:40:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2558
+May 30, 2019 11:57:34 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+shutdown request received: build/shutdown
+Client in /Users/brakket/projects/ota-ws-integrations/.bloop triggered cancellation. Cancelling tasks...
+The task for 'bsp --protocol local --socket /var/folders/rr/182jzwws5g975xt2v3f6zfjm0000gn/T/bsp6374890360954379489/-4pcqo6gnhzxb.socket' finished.
+Project tour-test has no analysis and setup.
+Project root-test has no analysis and setup.
+ Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayHotelAvailabilityConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayHotelAvailabilityConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayHotelAvailabilityConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayHotelAvailabilityConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 4.79s
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayHotelAvailabilityConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 java source)
+INFO  time: compiled hotel in 1.22s
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayHotelAvailabilityConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+WARN  unsupported Scala 2.11.8
+INFO  time: compiled hotel in 2.39s
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayHotelAvailabilityConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 0.85s
+ERROR 'hotel' failed to compile.
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+WARN  unsupported Scala 2.11.8
+INFO  time: compiled hotel in 0.99s
+ERROR 'hotel' failed to compile.
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+WARN  unsupported Scala 2.11.8
+INFO  time: compiled hotel in 0.5s
+ERROR 'hotel' failed to compile.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (2 scala sources)
+INFO  time: compiled hotel in 0.17s
+ERROR 'hotel' failed to compile.
+INFO  compiling hotel (2 scala sources)
+INFO  time: compiled hotel in 0.53s
+ERROR 'hotel' failed to compile.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (2 scala sources)
+INFO  time: compiled hotel in 0.74s
+ERROR 'hotel' failed to compile.
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (2 scala sources)
+WARN  unsupported Scala 2.11.8
+INFO  time: compiled hotel in 0.77s
+ERROR 'hotel' failed to compile.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (3 scala sources)
+INFO  time: compiled hotel in 0.4s
+ERROR 'hotel' failed to compile.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+INFO  /Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala:62:20: stale scalac error: overloaded method constructor UnprefixedAttribute with alternatives:
+  (key: String,value: Option[Seq[scala.xml.Node]],next: scala.xml.MetaData)scala.xml.UnprefixedAttribute <and>
+  (key: String,value: String,next: scala.xml.MetaData)scala.xml.UnprefixedAttribute <and>
+  (key: String,value: Seq[scala.xml.Node],next1: scala.xml.MetaData)scala.xml.UnprefixedAttribute
+ cannot be applied to (String, BigDecimal, scala.xml.MetaData)
+                  <hot:RoomRate RoomFare={room.roomRate.roomFare.toString()} Currency={room.roomRate.currency}
+                   ^
+INFO  /Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala:62:20: stale scalac error: overloaded method constructor UnprefixedAttribute with alternatives:
+  (key: String,value: Option[Seq[scala.xml.Node]],next: scala.xml.MetaData)scala.xml.UnprefixedAttribute <and>
+  (key: String,value: String,next: scala.xml.MetaData)scala.xml.UnprefixedAttribute <and>
+  (key: String,value: Seq[scala.xml.Node],next1: scala.xml.MetaData)scala.xml.UnprefixedAttribute
+ cannot be applied to (String, BigDecimal, scala.xml.MetaData)
+                  <hot:RoomRate RoomFare={room.roomRate.roomFare.toString()} Currency={room.roomRate.currency}
+                   ^
+INFO  /Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala:62:20: stale scalac error: overloaded method constructor UnprefixedAttribute with alternatives:
+  (key: String,value: Option[Seq[scala.xml.Node]],next: scala.xml.MetaData)scala.xml.UnprefixedAttribute <and>
+  (key: String,value: String,next: scala.xml.MetaData)scala.xml.UnprefixedAttribute <and>
+  (key: String,value: Seq[scala.xml.Node],next1: scala.xml.MetaData)scala.xml.UnprefixedAttribute
+ cannot be applied to (String, BigDecimal, scala.xml.MetaData)
+                  <hot:RoomRate RoomFare={room.roomRate.roomFare.toString()} Currency={room.roomRate.currency}
+                   ^
+INFO  /Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala:62:20: stale scalac error: overloaded method constructor UnprefixedAttribute with alternatives:
+  (key: String,value: Option[Seq[scala.xml.Node]],next: scala.xml.MetaData)scala.xml.UnprefixedAttribute <and>
+  (key: String,value: String,next: scala.xml.MetaData)scala.xml.UnprefixedAttribute <and>
+  (key: String,value: Seq[scala.xml.Node],next1: scala.xml.MetaData)scala.xml.UnprefixedAttribute
+ cannot be applied to (String, BigDecimal, scala.xml.MetaData)
+                  <hot:RoomRate RoomFare={room.roomRate.roomFare.toString()} Currency={room.roomRate.currency}
+                   ^
+INFO  /Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala:62:20: stale scalac error: overloaded method constructor UnprefixedAttribute with alternatives:
+  (key: String,value: Option[Seq[scala.xml.Node]],next: scala.xml.MetaData)scala.xml.UnprefixedAttribute <and>
+  (key: String,value: String,next: scala.xml.MetaData)scala.xml.UnprefixedAttribute <and>
+  (key: String,value: Seq[scala.xml.Node],next1: scala.xml.MetaData)scala.xml.UnprefixedAttribute
+ cannot be applied to (String, BigDecimal, scala.xml.MetaData)
+                  <hot:RoomRate RoomFare={room.roomRate.roomFare.toString()} Currency={room.roomRate.currency}
+                   ^
+INFO  /Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala:62:20: stale scalac error: overloaded method constructor UnprefixedAttribute with alternatives:
+  (key: String,value: Option[Seq[scala.xml.Node]],next: scala.xml.MetaData)scala.xml.UnprefixedAttribute <and>
+  (key: String,value: String,next: scala.xml.MetaData)scala.xml.UnprefixedAttribute <and>
+  (key: String,value: Seq[scala.xml.Node],next1: scala.xml.MetaData)scala.xml.UnprefixedAttribute
+ cannot be applied to (String, BigDecimal, scala.xml.MetaData)
+                  <hot:RoomRate RoomFare={room.roomRate.roomFare.toString()} Currency={room.roomRate.currency}
+                   ^
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  /Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala:62:20: stale scalac error: overloaded method constructor UnprefixedAttribute with alternatives:
+  (key: String,value: Option[Seq[scala.xml.Node]],next: scala.xml.MetaData)scala.xml.UnprefixedAttribute <and>
+  (key: String,value: String,next: scala.xml.MetaData)scala.xml.UnprefixedAttribute <and>
+  (key: String,value: Seq[scala.xml.Node],next1: scala.xml.MetaData)scala.xml.UnprefixedAttribute
+ cannot be applied to (String, BigDecimal, scala.xml.MetaData)
+                  <hot:RoomRate RoomFare={room.roomRate.roomFare.toString()} Currency={room.roomRate.currency}
+                   ^
+INFO  /Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala:62:20: stale scalac error: overloaded method constructor UnprefixedAttribute with alternatives:
+  (key: String,value: Option[Seq[scala.xml.Node]],next: scala.xml.MetaData)scala.xml.UnprefixedAttribute <and>
+  (key: String,value: String,next: scala.xml.MetaData)scala.xml.UnprefixedAttribute <and>
+  (key: String,value: Seq[scala.xml.Node],next1: scala.xml.MetaData)scala.xml.UnprefixedAttribute
+ cannot be applied to (String, BigDecimal, scala.xml.MetaData)
+                  <hot:RoomRate RoomFare={room.roomRate.roomFare.toString()} Currency={room.roomRate.currency}
+                   ^
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (3 scala sources)
+INFO  time: compiled hotel in 0.67s
+ERROR 'hotel' failed to compile.
+INFO  /Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala:62:20: stale scalac error: overloaded method constructor UnprefixedAttribute with alternatives:
+  (key: String,value: Option[Seq[scala.xml.Node]],next: scala.xml.MetaData)scala.xml.UnprefixedAttribute <and>
+  (key: String,value: String,next: scala.xml.MetaData)scala.xml.UnprefixedAttribute <and>
+  (key: String,value: Seq[scala.xml.Node],next1: scala.xml.MetaData)scala.xml.UnprefixedAttribute
+ cannot be applied to (String, BigDecimal, scala.xml.MetaData)
+                  <hot:RoomRate RoomFare={room.roomRate.roomFare.toString()} RoomTax={room.roomRate.tax} Currency={room.roomRate.currency} AgentMarkUp="0.00" TotalFare={room.roomRate.roomFare.toString()} />
+                   ^
+INFO  /Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala:62:20: stale scalac error: overloaded method constructor UnprefixedAttribute with alternatives:
+  (key: String,value: Option[Seq[scala.xml.Node]],next: scala.xml.MetaData)scala.xml.UnprefixedAttribute <and>
+  (key: String,value: String,next: scala.xml.MetaData)scala.xml.UnprefixedAttribute <and>
+  (key: String,value: Seq[scala.xml.Node],next1: scala.xml.MetaData)scala.xml.UnprefixedAttribute
+ cannot be applied to (String, BigDecimal, scala.xml.MetaData)
+                  <hot:RoomRate RoomFare={room.roomRate.roomFare.toString()} RoomTax={room.roomRate.tax} Currency={room.roomRate.currency} AgentMarkUp="0.00" TotalFare={room.roomRate.roomFare.toString()} />
+                   ^
+INFO  compiling hotel (2 scala sources)
+INFO  time: compiled hotel in 0.95s
+INFO  compiling hotel (3 scala sources)
+INFO  time: compiled hotel in 1.99s
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 1.02s
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 0.31s
+ERROR 'hotel' failed to compile.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 0.76s
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 0.37s
+ERROR 'hotel' failed to compile.
+INFO  /Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala:62:20: stale scalac error: overloaded method constructor UnprefixedAttribute with alternatives:
+  (key: String,value: Option[Seq[scala.xml.Node]],next: scala.xml.MetaData)scala.xml.UnprefixedAttribute <and>
+  (key: String,value: String,next: scala.xml.MetaData)scala.xml.UnprefixedAttribute <and>
+  (key: String,value: Seq[scala.xml.Node],next1: scala.xml.MetaData)scala.xml.UnprefixedAttribute
+ cannot be applied to (String, Unit, scala.xml.MetaData)
+                  <hot:RoomRate 
+                   ^
+INFO  /Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala:62:20: stale scalac error: overloaded method constructor UnprefixedAttribute with alternatives:
+  (key: String,value: Option[Seq[scala.xml.Node]],next: scala.xml.MetaData)scala.xml.UnprefixedAttribute <and>
+  (key: String,value: String,next: scala.xml.MetaData)scala.xml.UnprefixedAttribute <and>
+  (key: String,value: Seq[scala.xml.Node],next1: scala.xml.MetaData)scala.xml.UnprefixedAttribute
+ cannot be applied to (String, Unit, scala.xml.MetaData)
+                  <hot:RoomRate 
+                   ^
+INFO  /Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala:62:20: stale scalac error: overloaded method constructor UnprefixedAttribute with alternatives:
+  (key: String,value: Option[Seq[scala.xml.Node]],next: scala.xml.MetaData)scala.xml.UnprefixedAttribute <and>
+  (key: String,value: String,next: scala.xml.MetaData)scala.xml.UnprefixedAttribute <and>
+  (key: String,value: Seq[scala.xml.Node],next1: scala.xml.MetaData)scala.xml.UnprefixedAttribute
+ cannot be applied to (String, Unit, scala.xml.MetaData)
+                  <hot:RoomRate 
+                   ^
+INFO  /Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala:62:20: stale scalac error: overloaded method constructor UnprefixedAttribute with alternatives:
+  (key: String,value: Option[Seq[scala.xml.Node]],next: scala.xml.MetaData)scala.xml.UnprefixedAttribute <and>
+  (key: String,value: String,next: scala.xml.MetaData)scala.xml.UnprefixedAttribute <and>
+  (key: String,value: Seq[scala.xml.Node],next1: scala.xml.MetaData)scala.xml.UnprefixedAttribute
+ cannot be applied to (String, Unit, scala.xml.MetaData)
+                  <hot:RoomRate 
+                   ^
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 0.51s
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 0.64s
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 0.64s
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+INFO  time: compiled hotel in 1.19s
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 0.8s
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 1.34s
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayHotelAvailabilityConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+WARN  unsupported Scala 2.11.8
+INFO  time: compiled hotel in 0.66s
+ERROR 'hotel' failed to compile.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 0.26s
+ERROR 'hotel' failed to compile.
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 0.28s
+ERROR 'hotel' failed to compile.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/requests/TboHolidayHotelRoom.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (2 scala sources)
+INFO  time: compiled hotel in 0.98s
+INFO  compiling hotel (6 scala sources)
+WARN  unsupported Scala 2.11.8
+INFO  time: compiled hotel in 1.16s
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (2 scala sources)
+INFO  time: compiled hotel in 0.68s
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 1.21s
+INFO  compiling hotel (2 scala sources)
+INFO  time: compiled hotel in 2.05s
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/requests/TboHolidayHotelRoom.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/requests/TboHolidayHotelRoom.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/requests/TboHolidayHotelRoom.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 1.21s
+ERROR 'hotel' failed to compile.
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 0.35s
+ERROR 'hotel' failed to compile.
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 0.23s
+ERROR 'hotel' failed to compile.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/requests/TboHolidayHotelRoom.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/requests/TboHolidayHotelRoom.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/requests/TboHolidayHotelRoom.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/requests/TboHolidayHotelRoom.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 0.31s
+ERROR 'hotel' failed to compile.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 0.27s
+ERROR 'hotel' failed to compile.
+INFO  /Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala:67:52: stale scalac error: missing parameter type
+                            room.suppliments.map { _sup =>
+                                                   ^
+INFO  /Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala:67:52: stale scalac error: missing parameter type
+                            room.suppliments.map { _sup =>
+                                                   ^
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+WARN  unsupported Scala 2.11.8
+INFO  time: compiled hotel in 0.6s
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayHotelAvailabilityConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 0.85s
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 java source)
+ERROR cannot find symbol
+  symbol:   class Suppliment
+  location: class hotel.dto.entity.HotelRoom
+INFO  time: compiled hotel in 0.82s
+ERROR 'hotel' failed to compile.
+INFO  compiling hotel (1 java source)
+ERROR cannot find symbol
+  symbol:   class Suppliment
+  location: class hotel.dto.entity.HotelRoom
+ERROR cannot find symbol
+  symbol:   class Suppliment
+  location: class hotel.dto.entity.HotelRoom
+INFO  time: compiled hotel in 0.24s
+ERROR 'hotel' failed to compile.
+INFO  compiling hotel (1 java source)
+ERROR incompatible types: java.util.List<hotel.dto.entity.Facility> cannot be converted to java.util.List<hotel.dto.entity.HotelRoom.Suppliment>
+INFO  time: compiled hotel in 97ms
+ERROR 'hotel' failed to compile.
+INFO  compiling hotel (1 java source)
+INFO  time: compiled hotel in 0.28s
+INFO  compiling hotel (3 java sources)
+INFO  time: compiled hotel in 0.24s
+INFO  compiling hotel (1 java source)
+INFO  time: compiled hotel in 0.14s
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 java source)
+INFO  time: compiled hotel in 0.43s
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 0.55s
+ERROR 'hotel' failed to compile.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 0.33s
+ERROR 'hotel' failed to compile.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 0.35s
+ERROR 'hotel' failed to compile.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayHotelAvailabilityConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayHotelAvailabilityConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayHotelAvailabilityConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayHotelAvailabilityConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 0.32s
+ERROR 'hotel' failed to compile.
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayHotelAvailabilityConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayHotelAvailabilityConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayHotelAvailabilityConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayHotelAvailabilityConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 1.08s
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayHotelAvailabilityConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 0.63s
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayHotelAvailabilityConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayHotelAvailabilityConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayHotelAvailabilityConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 0.33s
+ERROR 'hotel' failed to compile.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayHotelAvailabilityConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayHotelAvailabilityConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayHotelAvailabilityConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayHotelAvailabilityConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayHotelAvailabilityConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayHotelAvailabilityConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayHotelAvailabilityConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayHotelAvailabilityConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayHotelAvailabilityConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayHotelAvailabilityConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayHotelAvailabilityConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayHotelAvailabilityConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayHotelAvailabilityConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayHotelAvailabilityConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 0.4s
+ERROR 'hotel' failed to compile.
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayHotelAvailabilityConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayHotelAvailabilityConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayHotelAvailabilityConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayHotelAvailabilityConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 0.67s
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/test/scala/HotelAPITest.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/test/scala/HotelAPITest.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+WARN  unsupported Scala 2.11.8
+INFO  time: compiled hotel in 1.33s
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 java source)
+INFO  time: compiled hotel in 0.53s
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayBookingConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayBookingConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayBookingConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayBookingConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayBookingConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 0.71s
+ERROR 'hotel' failed to compile.
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 0.26s
+ERROR 'hotel' failed to compile.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 0.28s
+ERROR 'hotel' failed to compile.
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayBookingConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayBookingConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayBookingConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayBookingConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 0.78s
+ERROR 'hotel' failed to compile.
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 0.43s
+ERROR 'hotel' failed to compile.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 0.23s
+ERROR 'hotel' failed to compile.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 0.24s
+ERROR 'hotel' failed to compile.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 0.23s
+ERROR 'hotel' failed to compile.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayBookingConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayBookingConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayBookingConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayBookingConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayBookingConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayBookingConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayBookingConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayBookingConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayBookingConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayBookingConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayBookingConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 0.86s
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayBookingConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayBookingConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 1.2s
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 0.48s
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 0.49s
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayBookingConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayBookingConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 1.36s
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 0.87s
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 java source)
+INFO  time: compiled hotel in 0.69s
+INFO  compiling hotel (2 scala sources and 2 java sources)
+INFO  time: compiled hotel in 1.11s
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 1.04s
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 1.41s
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/invokers/tboholiday/TboHolidayHotelBookInvoker.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayBookingConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayBookingConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayBookingConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayBookingConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 1.55s
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayBookingConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayBookingConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (6 scala sources)
+WARN  unsupported Scala 2.11.8
+INFO  time: compiled hotel in 4.04s
+INFO  compiling hotel-test (1 scala source)
+INFO  time: compiled hotel-test in 2.4s
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+INFO  compiling hotel (1 scala source)
+INFO  time: compiled hotel in 1.88s
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+ERROR code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/modules/hotel/src/main/scala/converters/tboholiday/TboHolidayBookingConverter.scala' because the Scala version 2.11.8 is not supported. To fix this problem, change the Scala version to 2.12.8 or 2.11.12.
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  unsupported Scala 2.11.8
+WARN  no build target: /Users/brakket/projects/ota-ws-integrations/project/Build.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/project/Build.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/project/Build.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/brakket/projects/ota-ws-integrations/project/Build.scala' because it doesn't belong to a build target.
+INFO  shutting down Metals
+INFO  bloop exit: 0

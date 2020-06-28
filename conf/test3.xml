@@ -1,0 +1,26 @@
+<SearchFlight xmlns="http://epowerv5.amadeus.com.tr/WS">
+    <OTA_AirLowFareSearchRQ ProviderType="AmadeusAndExtProviders">
+        <OriginDestinationInformation>
+            <DepartureDateTime>2020-06-20T00:00:00</DepartureDateTime>
+            <OriginLocation MultiAirportCityInd="true" LocationCode="LON"/>
+            <DestinationLocation MultiAirportCityInd="true" LocationCode="NYC"/>
+        </OriginDestinationInformation>
+        <OriginDestinationInformation>
+            <DepartureDateTime>2020-06-27T00:01:00</DepartureDateTime>
+            <OriginLocation MultiAirportCityInd="true" LocationCode="NYC"/>
+            <DestinationLocation MultiAirportCityInd="true" LocationCode="LON"/>
+        </OriginDestinationInformation>
+        <SpecificFlightInfo/>
+        <TravelPreferences/>
+        <TravelerInfoSummary>
+            <AirTravelerAvail>
+                <PassengerTypeQuantity Code="ADT" Quantity="1"/>
+                <AirTraveler/>
+            </AirTravelerAvail>
+        </TravelerInfoSummary>
+        <AdvanceSearchInfo>
+            <NumberOfRecommendation>600</NumberOfRecommendation>
+            <Currency>NGN</Currency>
+        </AdvanceSearchInfo>
+    </OTA_AirLowFareSearchRQ>
+</SearchFlight>

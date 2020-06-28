@@ -1,0 +1,21 @@
+<soap:Envelope xmlns:hot="http://TekTravel/HotelBookingApi" xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+    <soap:Header xmlns:wsa="http://www.w3.org/2005/08/addressing">
+        <hot:Credentials UserName="RoyalConnectTravelsTest" Password="Roy@45262537"></hot:Credentials>
+        <wsa:Action>http://TekTravel/HotelBookingApi/AvailabilityAndPricing</wsa:Action>
+        <wsa:To>https://api.tbotechnology.in/hotelapi_v7/hotelservice.svc</wsa:To>
+    </soap:Header>
+    <soap:Body>
+        <hot:AvailabilityAndPricingRequest>
+            <hot:ResultIndex>1</hot:ResultIndex>
+            <hot:HotelCode>1163781</hot:HotelCode>
+            <hot:SessionId>f649cc08-2734-47d2-b49f-24c20521cccf</hot:SessionId>
+            <hot:OptionsForBooking>
+                <hot:FixedFormat>false</hot:FixedFormat>
+                <hot:RoomCombination>
+                    <hot:ResultIndex>1</hot:ResultIndex>
+                    <hot:ResultIndex>2</hot:ResultIndex>
+                </hot:RoomCombination>
+            </hot:OptionsForBooking>
+        </hot:AvailabilityAndPricingRequest>
+    </soap:Body>
+</soap:Envelope>

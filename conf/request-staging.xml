@@ -1,0 +1,16 @@
+<soap:Envelope xmlns:hot="http://TekTravel/HotelBookingApi" xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+    <soap:Header xmlns:wsa="http://www.w3.org/2005/08/addressing">
+        <hot:Credentials UserName="thetravelplaceng" Password="The@99768388"></hot:Credentials>
+        <wsa:Action>http://TekTravel/HotelBookingApi/HotelBookingDetail</wsa:Action>
+        <wsa:To>https://api.tbotechnology.in/hotelapi_v7/hotelservice.svc</wsa:To>
+    </soap:Header>
+    <soap:Body>
+        <hot:HotelBookingDetailRequest>
+            <hot:ClientReferenceNumber>TEST0093</hot:ClientReferenceNumber>
+        </hot:HotelBookingDetailRequest>
+    </soap:Body>
+</soap:Envelope>
+
+
+RESPONSE
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing"><s:Header><a:Action s:mustUnderstand="1">http://TekTravel/HotelBookingApi/IHotelService/HotelBookingDetailResponse</a:Action></s:Header><s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><HotelBookingDetailResponse xmlns="http://TekTravel/HotelBookingApi"><Status><StatusCode>04-672</StatusCode><Description>SystemErr: Technical Failure</Description></Status></HotelBookingDetailResponse></s:Body></s:Envelope>

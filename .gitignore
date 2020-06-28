@@ -1,0 +1,8 @@
+git a.idea/
+.idea/
+target/
+project/project/
+project/target/
+modules/common/target/
+modules/flight/target/
+modules/hotel/target/
