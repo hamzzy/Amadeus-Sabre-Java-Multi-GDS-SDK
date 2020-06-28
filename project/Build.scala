@@ -76,20 +76,17 @@ object Build {
   )
 
   val commonResolvers = Seq(
-    Resolver.sonatypeRepo("snapshots"),
-    Resolver.jcenterRepo,
-
-    "iheartradio-maven" at "https://dl.bintray.com/iheartradio/maven",
-    "atlassian-maven" at "https://maven.atlassian.com/content/repositories/atlassian-public",
-    "Atlassian Releases" at "https://maven.atlassian.com/public/",
-    Resolver.jcenterRepo,
-    "scalaz-bintray" at "https://dl.bintray.com/scalaz/releases",
-    Resolver.sonatypeRepo("snapshots"),
-    Resolver.sonatypeRepo("releases"),
-    "Scalaz Bintray Repo" at "https://dl.bintray.com/scalaz/releases",
-    "Atlassian Releases" at "https://maven.atlassian.com/public/",
-    "Spy Repository" at "http://files.couchbase.com/maven2"
+    Resolver.jcenterRepo
   )
 
   lazy val gitHash = taskKey[Seq[File]]("Generating Resource file for Git Repo")
+
+
+  // Documentation for this project:
+  //    sbt "project docs" "~ paradox"
+  //    open docs/target/paradox/site/index.html
+  //  lazy val docs = (project in file("docs")).enablePlugins(ParadoxPlugin).settings(
+  //    paradoxProperties += ("download_url" -> "https://example.lightbend.com/v1/download/play-rest-api")
+  //  )
+
 }

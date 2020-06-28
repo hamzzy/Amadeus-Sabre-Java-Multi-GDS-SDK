@@ -1,0 +1,1222 @@
+<Countries>
+    <Country>
+        <CountryCode>AD</CountryCode>
+        <CountryName>Andorra</CountryName>
+        <Continent>Sw Europe</Continent>
+    </Country>
+    <Country>
+        <CountryCode>AE</CountryCode>
+        <CountryName>United Arab Emirates</CountryName>
+        <Continent>Middle East</Continent>
+    </Country>
+    <Country>
+        <CountryCode>AF</CountryCode>
+        <CountryName>Afghanistan</CountryName>
+        <Continent>Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>AG</CountryCode>
+        <CountryName>Antigua And Barbuda</CountryName>
+        <Continent>Caribbean</Continent>
+    </Country>
+    <Country>
+        <CountryCode>AI</CountryCode>
+        <CountryName>Anguilla</CountryName>
+        <Continent>Caribbean</Continent>
+    </Country>
+    <Country>
+        <CountryCode>AL</CountryCode>
+        <CountryName>Albania</CountryName>
+        <Continent>Europe</Continent>
+    </Country>
+    <Country>
+        <CountryCode>AM</CountryCode>
+        <CountryName>Armenia</CountryName>
+        <Continent>Euro-Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>AN</CountryCode>
+        <CountryName>Netherlands Antilles</CountryName>
+        <Continent>Caribbean</Continent>
+    </Country>
+    <Country>
+        <CountryCode>AO</CountryCode>
+        <CountryName>Angola</CountryName>
+        <Continent>Sw Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>AQ</CountryCode>
+        <CountryName>Antartica</CountryName>
+        <Continent>S Pacific</Continent>
+    </Country>
+    <Country>
+        <CountryCode>AR</CountryCode>
+        <CountryName>Argentina</CountryName>
+        <Continent>S America</Continent>
+    </Country>
+    <Country>
+        <CountryCode>AS</CountryCode>
+        <CountryName>American Samoa</CountryName>
+        <Continent>Sw Pacific</Continent>
+    </Country>
+    <Country>
+        <CountryCode>AT</CountryCode>
+        <CountryName>Austria</CountryName>
+        <Continent>C Europe</Continent>
+    </Country>
+    <Country>
+        <CountryCode>AU</CountryCode>
+        <CountryName>Australia</CountryName>
+        <Continent>Sw Pacific</Continent>
+    </Country>
+    <Country>
+        <CountryCode>AW</CountryCode>
+        <CountryName>Aruba</CountryName>
+        <Continent>Caribbean</Continent>
+    </Country>
+    <Country>
+        <CountryCode>AZ</CountryCode>
+        <CountryName>Azerbaijan</CountryName>
+        <Continent>Euro-Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>BA</CountryCode>
+        <CountryName>Bosnia-Herzegovina</CountryName>
+        <Continent>Europe</Continent>
+    </Country>
+    <Country>
+        <CountryCode>BB</CountryCode>
+        <CountryName>Barbados</CountryName>
+        <Continent>Caribbean</Continent>
+    </Country>
+    <Country>
+        <CountryCode>BD</CountryCode>
+        <CountryName>Bangladesh</CountryName>
+        <Continent>Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>BE</CountryCode>
+        <CountryName>Belgium</CountryName>
+        <Continent>Europe</Continent>
+    </Country>
+    <Country>
+        <CountryCode>BF</CountryCode>
+        <CountryName>Burkina Faso</CountryName>
+        <Continent>Cw Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>BG</CountryCode>
+        <CountryName>Bulgaria</CountryName>
+        <Continent>Europe</Continent>
+    </Country>
+    <Country>
+        <CountryCode>BH</CountryCode>
+        <CountryName>Bahrain</CountryName>
+        <Continent>Middle East</Continent>
+    </Country>
+    <Country>
+        <CountryCode>BI</CountryCode>
+        <CountryName>Burundi</CountryName>
+        <Continent>Ce Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>BJ</CountryCode>
+        <CountryName>Benin</CountryName>
+        <Continent>Cw Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>BM</CountryCode>
+        <CountryName>Bermuda</CountryName>
+        <Continent>C Atlantic</Continent>
+    </Country>
+    <Country>
+        <CountryCode>BN</CountryCode>
+        <CountryName>Brunei Darussalam</CountryName>
+        <Continent>Se Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>BO</CountryCode>
+        <CountryName>Bolivia</CountryName>
+        <Continent>S America</Continent>
+    </Country>
+    <Country>
+        <CountryCode>BQ</CountryCode>
+        <CountryName>Bonaire St Eustatius And Saba </CountryName>
+        <Continent>Caribbean</Continent>
+    </Country>
+    <Country>
+        <CountryCode>BR</CountryCode>
+        <CountryName>Brazil</CountryName>
+        <Continent>S America</Continent>
+    </Country>
+    <Country>
+        <CountryCode>BS</CountryCode>
+        <CountryName>Bahamas</CountryName>
+        <Continent>Caribbean</Continent>
+    </Country>
+    <Country>
+        <CountryCode>BT</CountryCode>
+        <CountryName>Bhutan</CountryName>
+        <Continent>Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>BW</CountryCode>
+        <CountryName>Botswana</CountryName>
+        <Continent>S Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>BY</CountryCode>
+        <CountryName>Belarus</CountryName>
+        <Continent>Euro-Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>BZ</CountryCode>
+        <CountryName>Belize</CountryName>
+        <Continent>C America</Continent>
+    </Country>
+    <Country>
+        <CountryCode>CA</CountryCode>
+        <CountryName>Canada</CountryName>
+        <Continent>N America</Continent>
+    </Country>
+    <Country>
+        <CountryCode>CB</CountryCode>
+        <CountryName>Canada Buffer</CountryName>
+        <Continent>N America</Continent>
+    </Country>
+    <Country>
+        <CountryCode>CC</CountryCode>
+        <CountryName>Cocos Islands</CountryName>
+        <Continent>Indian Ocean</Continent>
+    </Country>
+    <Country>
+        <CountryCode>CD</CountryCode>
+        <CountryName>Congo The Democratic Rep Of</CountryName>
+        <Continent>Sw Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>CF</CountryCode>
+        <CountryName>Central African Republic</CountryName>
+        <Continent>C Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>CG</CountryCode>
+        <CountryName>Congo Brazzaville</CountryName>
+        <Continent>Cw Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>CH</CountryCode>
+        <CountryName>Switzerland</CountryName>
+        <Continent>C Europe</Continent>
+    </Country>
+    <Country>
+        <CountryCode>CI</CountryCode>
+        <CountryName>Cote D Ivoire</CountryName>
+        <Continent>Cw Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>CK</CountryCode>
+        <CountryName>Cook Islands</CountryName>
+        <Continent>Sw Pacific</Continent>
+    </Country>
+    <Country>
+        <CountryCode>CL</CountryCode>
+        <CountryName>Chile</CountryName>
+        <Continent>S America</Continent>
+    </Country>
+    <Country>
+        <CountryCode>CM</CountryCode>
+        <CountryName>Cameroon-Republic Of</CountryName>
+        <Continent>Cw Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>CN</CountryCode>
+        <CountryName>China</CountryName>
+        <Continent>Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>CO</CountryCode>
+        <CountryName>Colombia</CountryName>
+        <Continent>S America</Continent>
+    </Country>
+    <Country>
+        <CountryCode>CR</CountryCode>
+        <CountryName>Costa Rica</CountryName>
+        <Continent>C America</Continent>
+    </Country>
+    <Country>
+        <CountryCode>CU</CountryCode>
+        <CountryName>Cuba</CountryName>
+        <Continent>Caribbean</Continent>
+    </Country>
+    <Country>
+        <CountryCode>CV</CountryCode>
+        <CountryName>Cape Verde-Republic Of</CountryName>
+        <Continent>Cw Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>CW</CountryCode>
+        <CountryName>Curacao</CountryName>
+        <Continent>Caribbean</Continent>
+    </Country>
+    <Country>
+        <CountryCode>CX</CountryCode>
+        <CountryName>Christmas Island</CountryName>
+        <Continent>Indian Ocean</Continent>
+    </Country>
+    <Country>
+        <CountryCode>CY</CountryCode>
+        <CountryName>Cyprus</CountryName>
+        <Continent>Mediterranean</Continent>
+    </Country>
+    <Country>
+        <CountryCode>CZ</CountryCode>
+        <CountryName>Czech Republic</CountryName>
+        <Continent>Europe</Continent>
+    </Country>
+    <Country>
+        <CountryCode>DE</CountryCode>
+        <CountryName>Germany</CountryName>
+        <Continent>Europe</Continent>
+    </Country>
+    <Country>
+        <CountryCode>DJ</CountryCode>
+        <CountryName>Djibouti</CountryName>
+        <Continent>E Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>DK</CountryCode>
+        <CountryName>Denmark</CountryName>
+        <Continent>Nw Europe</Continent>
+    </Country>
+    <Country>
+        <CountryCode>DM</CountryCode>
+        <CountryName>Dominica</CountryName>
+        <Continent>Caribbean</Continent>
+    </Country>
+    <Country>
+        <CountryCode>DO</CountryCode>
+        <CountryName>Dominican Republic</CountryName>
+        <Continent>Caribbean</Continent>
+    </Country>
+    <Country>
+        <CountryCode>DZ</CountryCode>
+        <CountryName>Algeria</CountryName>
+        <Continent>Nw Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>EC</CountryCode>
+        <CountryName>Ecuador</CountryName>
+        <Continent>S America</Continent>
+    </Country>
+    <Country>
+        <CountryCode>EE</CountryCode>
+        <CountryName>Estonia</CountryName>
+        <Continent>Ne Europe</Continent>
+    </Country>
+    <Country>
+        <CountryCode>EG</CountryCode>
+        <CountryName>Egypt</CountryName>
+        <Continent>Middle East</Continent>
+    </Country>
+    <Country>
+        <CountryCode>EH</CountryCode>
+        <CountryName>Western Sahara</CountryName>
+        <Continent>Nw Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>ER</CountryCode>
+        <CountryName>Eritrea</CountryName>
+        <Continent>E Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>ES</CountryCode>
+        <CountryName>Spain</CountryName>
+        <Continent>Sw Europe</Continent>
+    </Country>
+    <Country>
+        <CountryCode>ET</CountryCode>
+        <CountryName>Ethiopia</CountryName>
+        <Continent>E Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>EU</CountryCode>
+        <CountryName>Emu European Monetary Union</CountryName>
+        <Continent>Europe</Continent>
+    </Country>
+    <Country>
+        <CountryCode>FI</CountryCode>
+        <CountryName>Finland</CountryName>
+        <Continent>N Europe</Continent>
+    </Country>
+    <Country>
+        <CountryCode>FJ</CountryCode>
+        <CountryName>Fiji</CountryName>
+        <Continent>Sw Pacific</Continent>
+    </Country>
+    <Country>
+        <CountryCode>FK</CountryCode>
+        <CountryName>Falkland Islands</CountryName>
+        <Continent>S Atlantic</Continent>
+    </Country>
+    <Country>
+        <CountryCode>FM</CountryCode>
+        <CountryName>Micronesia</CountryName>
+        <Continent>Se Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>FO</CountryCode>
+        <CountryName>Faroe Islands</CountryName>
+        <Continent>N Atlantic</Continent>
+    </Country>
+    <Country>
+        <CountryCode>FR</CountryCode>
+        <CountryName>France</CountryName>
+        <Continent>W Europe</Continent>
+    </Country>
+    <Country>
+        <CountryCode>GA</CountryCode>
+        <CountryName>Gabon</CountryName>
+        <Continent>Cw Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>GB</CountryCode>
+        <CountryName>United Kingdom</CountryName>
+        <Continent>Nw Europe</Continent>
+    </Country>
+    <Country>
+        <CountryCode>GD</CountryCode>
+        <CountryName>Grenada</CountryName>
+        <Continent>Caribbean</Continent>
+    </Country>
+    <Country>
+        <CountryCode>GE</CountryCode>
+        <CountryName>Georgia</CountryName>
+        <Continent>Euro-Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>GF</CountryCode>
+        <CountryName>French Guiana</CountryName>
+        <Continent>S America</Continent>
+    </Country>
+    <Country>
+        <CountryCode>GH</CountryCode>
+        <CountryName>Ghana</CountryName>
+        <Continent>Cw Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>GI</CountryCode>
+        <CountryName>Gibraltar</CountryName>
+        <Continent>Sw Europe</Continent>
+    </Country>
+    <Country>
+        <CountryCode>GL</CountryCode>
+        <CountryName>Greenland</CountryName>
+        <Continent>N Atlantic</Continent>
+    </Country>
+    <Country>
+        <CountryCode>GM</CountryCode>
+        <CountryName>Gambia</CountryName>
+        <Continent>Cw Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>GN</CountryCode>
+        <CountryName>Guinea</CountryName>
+        <Continent>Cw Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>GP</CountryCode>
+        <CountryName>Guadeloupe</CountryName>
+        <Continent>Caribbean</Continent>
+    </Country>
+    <Country>
+        <CountryCode>GQ</CountryCode>
+        <CountryName>Equatorial Guinea</CountryName>
+        <Continent>Cw Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>GR</CountryCode>
+        <CountryName>Greece</CountryName>
+        <Continent>Europe</Continent>
+    </Country>
+    <Country>
+        <CountryCode>GT</CountryCode>
+        <CountryName>Guatemala</CountryName>
+        <Continent>C America</Continent>
+    </Country>
+    <Country>
+        <CountryCode>GU</CountryCode>
+        <CountryName>Guam</CountryName>
+        <Continent>Se Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>GW</CountryCode>
+        <CountryName>Guinea Bissau</CountryName>
+        <Continent>Cw Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>GY</CountryCode>
+        <CountryName>Guyana</CountryName>
+        <Continent>S America</Continent>
+    </Country>
+    <Country>
+        <CountryCode>HK</CountryCode>
+        <CountryName>Hong Kong</CountryName>
+        <Continent>Se Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>HN</CountryCode>
+        <CountryName>Honduras</CountryName>
+        <Continent>C America</Continent>
+    </Country>
+    <Country>
+        <CountryCode>HR</CountryCode>
+        <CountryName>Croatia</CountryName>
+        <Continent>Europe</Continent>
+    </Country>
+    <Country>
+        <CountryCode>HT</CountryCode>
+        <CountryName>Haiti</CountryName>
+        <Continent>Caribbean</Continent>
+    </Country>
+    <Country>
+        <CountryCode>HU</CountryCode>
+        <CountryName>Hungary</CountryName>
+        <Continent>Europe</Continent>
+    </Country>
+    <Country>
+        <CountryCode>ID</CountryCode>
+        <CountryName>Indonesia</CountryName>
+        <Continent>Se Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>IE</CountryCode>
+        <CountryName>Ireland-Republic Of</CountryName>
+        <Continent>Nw Europe</Continent>
+    </Country>
+    <Country>
+        <CountryCode>IL</CountryCode>
+        <CountryName>Israel</CountryName>
+        <Continent>Middle East</Continent>
+    </Country>
+    <Country>
+        <CountryCode>IN</CountryCode>
+        <CountryName>India</CountryName>
+        <Continent>Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>IO</CountryCode>
+        <CountryName>British Indian Ocean Territory</CountryName>
+        <Continent>Indian Ocean</Continent>
+    </Country>
+    <Country>
+        <CountryCode>IQ</CountryCode>
+        <CountryName>Iraq</CountryName>
+        <Continent>Middle East</Continent>
+    </Country>
+    <Country>
+        <CountryCode>IR</CountryCode>
+        <CountryName>Iran</CountryName>
+        <Continent>Middle East</Continent>
+    </Country>
+    <Country>
+        <CountryCode>IS</CountryCode>
+        <CountryName>Iceland</CountryName>
+        <Continent>N Atlantic</Continent>
+    </Country>
+    <Country>
+        <CountryCode>IT</CountryCode>
+        <CountryName>Italy</CountryName>
+        <Continent>S Europe</Continent>
+    </Country>
+    <Country>
+        <CountryCode>JM</CountryCode>
+        <CountryName>Jamaica</CountryName>
+        <Continent>Caribbean</Continent>
+    </Country>
+    <Country>
+        <CountryCode>JO</CountryCode>
+        <CountryName>Jordan</CountryName>
+        <Continent>Middle East</Continent>
+    </Country>
+    <Country>
+        <CountryCode>JP</CountryCode>
+        <CountryName>Japan</CountryName>
+        <Continent>Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>KE</CountryCode>
+        <CountryName>Kenya</CountryName>
+        <Continent>E Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>KG</CountryCode>
+        <CountryName>Kyrgyzstan</CountryName>
+        <Continent>Se Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>KH</CountryCode>
+        <CountryName>Cambodia</CountryName>
+        <Continent>Se Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>KI</CountryCode>
+        <CountryName>Kiribati</CountryName>
+        <Continent>Sw Pacific</Continent>
+    </Country>
+    <Country>
+        <CountryCode>KM</CountryCode>
+        <CountryName>Comoros</CountryName>
+        <Continent>Indian Ocean</Continent>
+    </Country>
+    <Country>
+        <CountryCode>KN</CountryCode>
+        <CountryName>St. Kitts</CountryName>
+        <Continent>Caribbean</Continent>
+    </Country>
+    <Country>
+        <CountryCode>KP</CountryCode>
+        <CountryName>Korea Dem Peoples Rep Of</CountryName>
+        <Continent>Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>KR</CountryCode>
+        <CountryName>Korea Republic Of</CountryName>
+        <Continent>Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>KW</CountryCode>
+        <CountryName>Kuwait</CountryName>
+        <Continent>Middle East</Continent>
+    </Country>
+    <Country>
+        <CountryCode>KY</CountryCode>
+        <CountryName>Cayman Islands</CountryName>
+        <Continent>Caribbean</Continent>
+    </Country>
+    <Country>
+        <CountryCode>KZ</CountryCode>
+        <CountryName>Kazakhstan</CountryName>
+        <Continent>Se Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>LA</CountryCode>
+        <CountryName>Lao People's Dem Republic</CountryName>
+        <Continent>Se</Continent>
+    </Country>
+    <Country>
+        <CountryCode>LB</CountryCode>
+        <CountryName>Lebanon</CountryName>
+        <Continent>Middle East</Continent>
+    </Country>
+    <Country>
+        <CountryCode>LC</CountryCode>
+        <CountryName>St. Lucia</CountryName>
+        <Continent>Caribbean</Continent>
+    </Country>
+    <Country>
+        <CountryCode>LI</CountryCode>
+        <CountryName>Liechtenstein</CountryName>
+        <Continent>Europe</Continent>
+    </Country>
+    <Country>
+        <CountryCode>LK</CountryCode>
+        <CountryName>Sri Lanka</CountryName>
+        <Continent>Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>LR</CountryCode>
+        <CountryName>Liberia</CountryName>
+        <Continent>Cw Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>LS</CountryCode>
+        <CountryName>Lesotho</CountryName>
+        <Continent>S Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>LT</CountryCode>
+        <CountryName>Lithuania</CountryName>
+        <Continent>Ne Europe</Continent>
+    </Country>
+    <Country>
+        <CountryCode>LU</CountryCode>
+        <CountryName>Luxembourg</CountryName>
+        <Continent>C Europe</Continent>
+    </Country>
+    <Country>
+        <CountryCode>LV</CountryCode>
+        <CountryName>Latvia</CountryName>
+        <Continent>Ne Europe</Continent>
+    </Country>
+    <Country>
+        <CountryCode>LY</CountryCode>
+        <CountryName>Libya</CountryName>
+        <Continent>N Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>MA</CountryCode>
+        <CountryName>Morocco</CountryName>
+        <Continent>Nw Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>MB</CountryCode>
+        <CountryName>Mexico Buffer</CountryName>
+        <Continent>C America</Continent>
+    </Country>
+    <Country>
+        <CountryCode>MC</CountryCode>
+        <CountryName>Monaco</CountryName>
+        <Continent>C Europe</Continent>
+    </Country>
+    <Country>
+        <CountryCode>MD</CountryCode>
+        <CountryName>Moldova</CountryName>
+        <Continent>Euro-Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>ME</CountryCode>
+        <CountryName>Montenegro</CountryName>
+        <Continent>Europe</Continent>
+    </Country>
+    <Country>
+        <CountryCode>MG</CountryCode>
+        <CountryName>Madagascar</CountryName>
+        <Continent>E Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>MH</CountryCode>
+        <CountryName>Marshall Islands</CountryName>
+        <Continent>Se Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>MK</CountryCode>
+        <CountryName>Macedonia -Fyrom-</CountryName>
+        <Continent>Europe</Continent>
+    </Country>
+    <Country>
+        <CountryCode>ML</CountryCode>
+        <CountryName>Mali</CountryName>
+        <Continent>Nw Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>MM</CountryCode>
+        <CountryName>Myanmar</CountryName>
+        <Continent>Se Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>MN</CountryCode>
+        <CountryName>Mongolia</CountryName>
+        <Continent>Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>MO</CountryCode>
+        <CountryName>Macao -Sar Of China-</CountryName>
+        <Continent>Se Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>MP</CountryCode>
+        <CountryName>Northern Mariana Islands</CountryName>
+        <Continent>Se Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>MQ</CountryCode>
+        <CountryName>Martinique</CountryName>
+        <Continent>Caribbean</Continent>
+    </Country>
+    <Country>
+        <CountryCode>MR</CountryCode>
+        <CountryName>Mauritania</CountryName>
+        <Continent>Nw Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>MS</CountryCode>
+        <CountryName>Montserrat</CountryName>
+        <Continent>Caribbean</Continent>
+    </Country>
+    <Country>
+        <CountryCode>MT</CountryCode>
+        <CountryName>Malta</CountryName>
+        <Continent>Mediterranean</Continent>
+    </Country>
+    <Country>
+        <CountryCode>MU</CountryCode>
+        <CountryName>Mauritius Island</CountryName>
+        <Continent>Indian Ocean</Continent>
+    </Country>
+    <Country>
+        <CountryCode>MV</CountryCode>
+        <CountryName>Maldives Island</CountryName>
+        <Continent>Indian Ocean</Continent>
+    </Country>
+    <Country>
+        <CountryCode>MW</CountryCode>
+        <CountryName>Malawi</CountryName>
+        <Continent>Se Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>MX</CountryCode>
+        <CountryName>Mexico</CountryName>
+        <Continent>N America</Continent>
+    </Country>
+    <Country>
+        <CountryCode>MY</CountryCode>
+        <CountryName>Malaysia</CountryName>
+        <Continent>Se Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>MZ</CountryCode>
+        <CountryName>Mozambique</CountryName>
+        <Continent>Se Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>NA</CountryCode>
+        <CountryName>Namibia</CountryName>
+        <Continent>Sw Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>NC</CountryCode>
+        <CountryName>New Caledonia</CountryName>
+        <Continent>Sw Pacific</Continent>
+    </Country>
+    <Country>
+        <CountryCode>NE</CountryCode>
+        <CountryName>Niger</CountryName>
+        <Continent>Cw Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>NF</CountryCode>
+        <CountryName>Norfolk Island</CountryName>
+        <Continent>Sw Pacific</Continent>
+    </Country>
+    <Country>
+        <CountryCode>NG</CountryCode>
+        <CountryName>Nigeria</CountryName>
+        <Continent>Cw Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>NI</CountryCode>
+        <CountryName>Nicaragua</CountryName>
+        <Continent>C America</Continent>
+    </Country>
+    <Country>
+        <CountryCode>NL</CountryCode>
+        <CountryName>Netherlands</CountryName>
+        <Continent>Nw Europe</Continent>
+    </Country>
+    <Country>
+        <CountryCode>NO</CountryCode>
+        <CountryName>Norway</CountryName>
+        <Continent>N Europe</Continent>
+    </Country>
+    <Country>
+        <CountryCode>NP</CountryCode>
+        <CountryName>Nepal</CountryName>
+        <Continent>Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>NR</CountryCode>
+        <CountryName>Nauru</CountryName>
+        <Continent>C Pacific</Continent>
+    </Country>
+    <Country>
+        <CountryCode>NU</CountryCode>
+        <CountryName>Niue</CountryName>
+        <Continent>Sw Pacific</Continent>
+    </Country>
+    <Country>
+        <CountryCode>NZ</CountryCode>
+        <CountryName>New Zealand</CountryName>
+        <Continent>Sw Pacific</Continent>
+    </Country>
+    <Country>
+        <CountryCode>OM</CountryCode>
+        <CountryName>Oman</CountryName>
+        <Continent>Middle East</Continent>
+    </Country>
+    <Country>
+        <CountryCode>PA</CountryCode>
+        <CountryName>Panama</CountryName>
+        <Continent>C America</Continent>
+    </Country>
+    <Country>
+        <CountryCode>PE</CountryCode>
+        <CountryName>Peru</CountryName>
+        <Continent>S America</Continent>
+    </Country>
+    <Country>
+        <CountryCode>PF</CountryCode>
+        <CountryName>French Polynesia</CountryName>
+        <Continent>S Pacific</Continent>
+    </Country>
+    <Country>
+        <CountryCode>PG</CountryCode>
+        <CountryName>Papua New Guinea</CountryName>
+        <Continent>Sw Pacific</Continent>
+    </Country>
+    <Country>
+        <CountryCode>PH</CountryCode>
+        <CountryName>Philippines</CountryName>
+        <Continent>Se Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>PK</CountryCode>
+        <CountryName>Pakistan</CountryName>
+        <Continent>Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>PL</CountryCode>
+        <CountryName>Poland</CountryName>
+        <Continent>Europe</Continent>
+    </Country>
+    <Country>
+        <CountryCode>PM</CountryCode>
+        <CountryName>St. Pierre And Miquelon</CountryName>
+        <Continent>N Atlantic</Continent>
+    </Country>
+    <Country>
+        <CountryCode>PR</CountryCode>
+        <CountryName>Puerto Rico</CountryName>
+        <Continent>Caribbean</Continent>
+    </Country>
+    <Country>
+        <CountryCode>PS</CountryCode>
+        <CountryName>Palestine - State Of</CountryName>
+        <Continent>Middle East</Continent>
+    </Country>
+    <Country>
+        <CountryCode>PT</CountryCode>
+        <CountryName>Portugal</CountryName>
+        <Continent>Sw Europe</Continent>
+    </Country>
+    <Country>
+        <CountryCode>PW</CountryCode>
+        <CountryName>Palau Islands</CountryName>
+        <Continent>Se Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>PY</CountryCode>
+        <CountryName>Paraguay</CountryName>
+        <Continent>S America</Continent>
+    </Country>
+    <Country>
+        <CountryCode>QA</CountryCode>
+        <CountryName>Qatar</CountryName>
+        <Continent>Middle East</Continent>
+    </Country>
+    <Country>
+        <CountryCode>RE</CountryCode>
+        <CountryName>Reunion Island</CountryName>
+        <Continent>Indian Ocean</Continent>
+    </Country>
+    <Country>
+        <CountryCode>RO</CountryCode>
+        <CountryName>Romania</CountryName>
+        <Continent>Europe</Continent>
+    </Country>
+    <Country>
+        <CountryCode>RS</CountryCode>
+        <CountryName>Serbia</CountryName>
+        <Continent>Europe</Continent>
+    </Country>
+    <Country>
+        <CountryCode>RU</CountryCode>
+        <CountryName>Russia</CountryName>
+        <Continent>Euro-Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>RW</CountryCode>
+        <CountryName>Rwanda</CountryName>
+        <Continent>Ce Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>SA</CountryCode>
+        <CountryName>Saudi Arabia</CountryName>
+        <Continent>Middle East</Continent>
+    </Country>
+    <Country>
+        <CountryCode>SB</CountryCode>
+        <CountryName>Solomon Islands</CountryName>
+        <Continent>Sw Pacific</Continent>
+    </Country>
+    <Country>
+        <CountryCode>SC</CountryCode>
+        <CountryName>Seychelles Islands</CountryName>
+        <Continent>Indian Ocean</Continent>
+    </Country>
+    <Country>
+        <CountryCode>SD</CountryCode>
+        <CountryName>Sudan</CountryName>
+        <Continent>Middle East</Continent>
+    </Country>
+    <Country>
+        <CountryCode>SE</CountryCode>
+        <CountryName>Sweden</CountryName>
+        <Continent>N Europe</Continent>
+    </Country>
+    <Country>
+        <CountryCode>SG</CountryCode>
+        <CountryName>Singapore</CountryName>
+        <Continent>Se Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>SH</CountryCode>
+        <CountryName>St. Helena Island</CountryName>
+        <Continent>S Atlantic</Continent>
+    </Country>
+    <Country>
+        <CountryCode>SI</CountryCode>
+        <CountryName>Slovenia</CountryName>
+        <Continent>C Europe</Continent>
+    </Country>
+    <Country>
+        <CountryCode>SK</CountryCode>
+        <CountryName>Slovakia</CountryName>
+        <Continent>Europe</Continent>
+    </Country>
+    <Country>
+        <CountryCode>SL</CountryCode>
+        <CountryName>Sierra Leone</CountryName>
+        <Continent>Cw Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>SM</CountryCode>
+        <CountryName>San Marino</CountryName>
+        <Continent>N Italy</Continent>
+    </Country>
+    <Country>
+        <CountryCode>SN</CountryCode>
+        <CountryName>Senegal</CountryName>
+        <Continent>Cw Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>SO</CountryCode>
+        <CountryName>Somalia</CountryName>
+        <Continent>E Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>SR</CountryCode>
+        <CountryName>Suriname</CountryName>
+        <Continent>S America</Continent>
+    </Country>
+    <Country>
+        <CountryCode>SS</CountryCode>
+        <CountryName>South Sudan</CountryName>
+        <Continent>Middle East</Continent>
+    </Country>
+    <Country>
+        <CountryCode>ST</CountryCode>
+        <CountryName>Sao Tome And Principe Islands </CountryName>
+        <Continent>Cw Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>SV</CountryCode>
+        <CountryName>El Salvador</CountryName>
+        <Continent>C America</Continent>
+    </Country>
+    <Country>
+        <CountryCode>SX</CountryCode>
+        <CountryName>Sint Maarten</CountryName>
+        <Continent>Caribbean</Continent>
+    </Country>
+    <Country>
+        <CountryCode>SY</CountryCode>
+        <CountryName>Syrian Arab Republic</CountryName>
+        <Continent>Middle East</Continent>
+    </Country>
+    <Country>
+        <CountryCode>SZ</CountryCode>
+        <CountryName>Swaziland</CountryName>
+        <Continent>S Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>TC</CountryCode>
+        <CountryName>Turks And Caicos Islands</CountryName>
+        <Continent>Caribbean</Continent>
+    </Country>
+    <Country>
+        <CountryCode>TD</CountryCode>
+        <CountryName>Chad</CountryName>
+        <Continent>C Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>TG</CountryCode>
+        <CountryName>Togo</CountryName>
+        <Continent>Cw Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>TH</CountryCode>
+        <CountryName>Thailand</CountryName>
+        <Continent>Se Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>TJ</CountryCode>
+        <CountryName>Tajikistan</CountryName>
+        <Continent>Se Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>TK</CountryCode>
+        <CountryName>Tokelau</CountryName>
+        <Continent>Sw Pacific</Continent>
+    </Country>
+    <Country>
+        <CountryCode>TL</CountryCode>
+        <CountryName>Timor Leste</CountryName>
+        <Continent>Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>TM</CountryCode>
+        <CountryName>Turkmenistan</CountryName>
+        <Continent>Se Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>TN</CountryCode>
+        <CountryName>Tunisia</CountryName>
+        <Continent>N Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>TO</CountryCode>
+        <CountryName>Tonga</CountryName>
+        <Continent>Sw Pacific</Continent>
+    </Country>
+    <Country>
+        <CountryCode>TP</CountryCode>
+        <CountryName>East Timor Former Code)</CountryName>
+        <Continent>Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>TR</CountryCode>
+        <CountryName>Turkey</CountryName>
+        <Continent>Euro-Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>TT</CountryCode>
+        <CountryName>Trinidad And Tobago</CountryName>
+        <Continent>Caribbean</Continent>
+    </Country>
+    <Country>
+        <CountryCode>TV</CountryCode>
+        <CountryName>Tuvalu</CountryName>
+        <Continent>Sw Pacific</Continent>
+    </Country>
+    <Country>
+        <CountryCode>TW</CountryCode>
+        <CountryName>Taiwan</CountryName>
+        <Continent>Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>TZ</CountryCode>
+        <CountryName>Tanzania-United Republic</CountryName>
+        <Continent>Se Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>UA</CountryCode>
+        <CountryName>Ukraine</CountryName>
+        <Continent>Euro-Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>UG</CountryCode>
+        <CountryName>Uganda</CountryName>
+        <Continent>Ce Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>UM</CountryCode>
+        <CountryName>U.S. Minor Outlying Islands</CountryName>
+        <Continent>Caribbean</Continent>
+    </Country>
+    <Country>
+        <CountryCode>US</CountryCode>
+        <CountryName>United States Of America</CountryName>
+        <Continent>N America</Continent>
+    </Country>
+    <Country>
+        <CountryCode>UY</CountryCode>
+        <CountryName>Uruguay</CountryName>
+        <Continent>S America</Continent>
+    </Country>
+    <Country>
+        <CountryCode>UZ</CountryCode>
+        <CountryName>Uzbekistan</CountryName>
+        <Continent>Euro-Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>VA</CountryCode>
+        <CountryName>Vatican</CountryName>
+        <Continent>S Europe</Continent>
+    </Country>
+    <Country>
+        <CountryCode>VC</CountryCode>
+        <CountryName>St. Vincent</CountryName>
+        <Continent>Caribbean</Continent>
+    </Country>
+    <Country>
+        <CountryCode>VE</CountryCode>
+        <CountryName>Venezuela</CountryName>
+        <Continent>S America</Continent>
+    </Country>
+    <Country>
+        <CountryCode>VG</CountryCode>
+        <CountryName>Virgin Islands-British</CountryName>
+        <Continent>Caribbean</Continent>
+    </Country>
+    <Country>
+        <CountryCode>VI</CountryCode>
+        <CountryName>Virgin Islands-United States</CountryName>
+        <Continent>Caribbean</Continent>
+    </Country>
+    <Country>
+        <CountryCode>VN</CountryCode>
+        <CountryName>Vietnam</CountryName>
+        <Continent>Se Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>VU</CountryCode>
+        <CountryName>Vanuatu</CountryName>
+        <Continent>Sw Pacific</Continent>
+    </Country>
+    <Country>
+        <CountryCode>WF</CountryCode>
+        <CountryName>Wallis And Futuna Islands</CountryName>
+        <Continent>C Pacific</Continent>
+    </Country>
+    <Country>
+        <CountryCode>WS</CountryCode>
+        <CountryName>Samoa-Independent State Of</CountryName>
+        <Continent>Sw Pacific</Continent>
+    </Country>
+    <Country>
+        <CountryCode>XU</CountryCode>
+        <CountryName>Russia</CountryName>
+        <Continent>Asia</Continent>
+    </Country>
+    <Country>
+        <CountryCode>YE</CountryCode>
+        <CountryName>Yemen Republic</CountryName>
+        <Continent>Middle East</Continent>
+    </Country>
+    <Country>
+        <CountryCode>YT</CountryCode>
+        <CountryName>Mayotte</CountryName>
+        <Continent>Indian Ocean</Continent>
+    </Country>
+    <Country>
+        <CountryCode>ZA</CountryCode>
+        <CountryName>South Africa</CountryName>
+        <Continent>S Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>ZM</CountryCode>
+        <CountryName>Zambia</CountryName>
+        <Continent>S Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>ZW</CountryCode>
+        <CountryName>Zimbabwe</CountryName>
+        <Continent>S Africa</Continent>
+    </Country>
+    <Country>
+        <CountryCode>ZZ</CountryCode>
+        <CountryName>Fictitious Points</CountryName>
+        <Continent>None</Continent>
+    </Country>
+</Countries>
